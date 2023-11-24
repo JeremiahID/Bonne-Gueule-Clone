@@ -17,11 +17,13 @@ header{
     height: 15vh;
     background-color:#fff;
     margin-left: 3rem;
+    position: sticky;
+    top: 0px;
 }
 
 body{
     width: 100%;
-    height:200vh;
+    height:300vh;
 }
 
 .logo{
@@ -79,7 +81,7 @@ svg {
 
 .sectionOne{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background-color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -87,18 +89,121 @@ svg {
     gap: 3rem;
 }
 
-.content{
+.sectionOne a{
     grid-column: span 1;
     grid-row: span 1;
-    border: 3px solid green;
     
-    
+      
+}
+
+.sectionOne a:hover{
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.685);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.spaceOne{
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+}
+
+.spaceTwo{
+    margin-right: 4rem;
+    margin-bottom: 1rem;
 }
 
 .contentOne{
-    margin-left: 3rem;
+    background-image: url("/Images/E-SHOP.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .contentTwo{
-    margin-right: 3rem;
+    background-image: url("/Images/MEDIA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*This is the styling of Second section */
+
+.sectionTwo{
+    width: 100%;
+    margin-top: 3rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    width: 92%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionOneContent{
+    height: 90vh;
+    width: 55vw;
+    background-image: url("/Images/boutiques.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain ;
+
+}
+
+.sectionTwoContent{
+    height: 89.9vh;
+    width: 35vw;
+    background-color: rgba(128, 128, 128, 0.267);
+    border-left: 1px solid white;
+}
+
+.sectionTwoContent h1{
+    color: rgb(12, 12, 66);
+    font-family: Bodoni Moda;
+    font-size: 2.5rem;
+    padding-top: 8rem;
+    padding-left: 4rem;
+    letter-spacing: 2px;
+}
+
+.sectionTwoContent p{
+    padding-top: 2rem;
+    padding-left: 4rem;
+    font-size: 1.1rem;
+    color: rgb(3, 3, 27);
+    font-family: calibri;
+    line-height: 1.8rem;
+
+}
+
+button{
+    height: 8vh;
+    width: 15vw;
+    background-color: rgba(3, 3, 172, 0.767);
+    border-radius: 50px;
+    color: white;
+    font-family: Bodoni Moda;
+    letter-spacing: 2px;
+    padding: 0.2rem;
+    border: 0px;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    font-weight: 900;
+}
+
+.appointmentButton{
+    margin-top: 1rem;
+    width: 20vw;
+    font-weight: 900;
+}
+
+button:hover{
+    background-color: rgb(3, 3, 27);
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
 }
