@@ -92,6 +92,7 @@ svg {
 .sectionOne a{
     grid-column: span 1;
     grid-row: span 1;
+    margin-top: 1rem;
     
       
 }
