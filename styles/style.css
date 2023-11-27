@@ -1,5 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400;1,6..96,500;1,6..96,600&family=Nanum+Myeongjo:wght@400;800&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,500&display=swap');
 
 
 *{
@@ -55,6 +55,11 @@ li{
 li a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.678);
+}
+
+li a:hover{
+    color: rgba(255, 94, 0, 0.671);
+    transition:all 0.5s ease 0s;
 }
 
 svg { 
@@ -207,4 +212,53 @@ button:hover{
     background-color: rgb(3, 3, 27);
     transition: all 0.5s ease 0s;
     cursor: pointer;
+}
+
+/* background-color: rgba(255, 94, 0, 0.671); */
+
+/*This is the styling of Third section */
+.sectionThree{
+    height: 4 0vh;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+.sectionThree a{
+    height: 40vh;
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.sectionThree a svg{
+    color: rgba(255, 94, 0, 0.671) ;
+    height: 10vh;
+    width:10vw ;
+
+}
+
+.sectionThree a h2{
+    font-family:Lora;
+    font-size: 1.5rem;
+}
+
+.sectionThree a h2::first-letter{
+    font-size: 1.8rem
+
+}
+
+.sectionThree a p{
+    font-family:Lora;
+    font-size: 0.8rem;
+    font-weight: 900;
 }
