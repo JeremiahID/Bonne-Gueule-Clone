@@ -17,8 +17,8 @@ header{
     height: 15vh;
     background-color:#fff;
     margin-left: 3rem;
-    position: sticky;
-    top: 0px;
+    /* position: sticky;
+    top: 0px; */
     border-bottom: 1px solid burlywood;
 }
 
@@ -191,7 +191,7 @@ svg {
 button{
     height: 8vh;
     width: 15vw;
-    background-color: rgba(3, 3, 172, 0.767);
+    background-color: rgb(0, 77, 128);
     border-radius: 50px;
     color: white;
     font-family: Bodoni Moda;
@@ -210,7 +210,7 @@ button{
 }
 
 button:hover{
-    background-color: rgb(3, 3, 27);
+    background-color: rgb(1, 21, 34);
     transition: all 0.5s ease 0s;
     cursor: pointer;
 }
@@ -297,5 +297,82 @@ button:hover{
 .sectionFourRight{
     width: 50%;
     height: 90vh;
-    background-color: black;
+    background-color: rgb(0, 77, 128);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.writeUp, .emailSubmit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    
+}
+
+.writeUp svg{
+    height: 15vh;
+    width: 8vw;
+
+}
+
+:where(.writeUp) :is(h2, h4){
+    color: whitesmoke;
+    font-family: Arial;
+    font-weight: lighter;
+    margin: 1rem;
+}
+
+.radio{
+    color: whitesmoke;
+    font-family: Arial;
+    font-weight: lighter;
+
+}
+
+input[type="email"]{
+    width: 35vw;
+    height: 5vh;
+    border: 1px solid rgb(243, 242, 242);
+    background-color: transparent;
+    padding: 0.5rem;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-family: Lora;
+    letter-spacing: 1px;
+    font-weight: light;
+   
+}
+
+input[type="email"]::placeholder{
+    color: whitesmoke;
+    font-family: Lora;
+   
+}
+
+.emailSubmit button{
+    width: 25vw;
+    background-color: white;
+    color: rgb(0, 77, 128);
+    font-family: Lora;
+    font-size: 1rem;
+    margin-left: 0px;
+    margin-top: 4rem;
+
+
+}
+
+.emailSubmit button:hover{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: lighter;
+    transition: all 0.4 ease-in-out 0s ;
+
+}
+
+
+
