@@ -19,6 +19,7 @@ header{
     margin-left: 3rem;
     position: sticky;
     top: 0px;
+    border-bottom: 1px solid burlywood;
 }
 
 body{
@@ -261,4 +262,40 @@ button:hover{
     font-family:Lora;
     font-size: 0.8rem;
     font-weight: 900;
+}
+
+/*This is the styling of Fourth section */
+
+.sectionFour{
+    width: 100%;
+    margin-top: 3rem;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionFour .container{
+    width: 92%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.sectionFourLeft{
+    width: 50%;
+    height: 90vh;
+    background-image: url("/Images/newsletter.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectionFourRight{
+    width: 50%;
+    height: 90vh;
+    background-color: black;
 }
