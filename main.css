@@ -422,5 +422,21 @@ input[type="email"]::placeholder{
 }
 
 
+/*This is the styling of HOVER section for the various links */
+
+#media{
+    display: none;
+    height: 15vh;
+    z-index: 1;
+    width: 100%;
+    background-color:rgb(247, 185, 105);
+}
+
+.index{
+    z-index: -1;
+ 
+}
+
+
 
 
