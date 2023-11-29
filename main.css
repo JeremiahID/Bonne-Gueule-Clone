@@ -453,8 +453,13 @@ input[type="email"]::placeholder{
     color: whitesmoke;
     text-decoration: none;
     font-family: Agency FB;
-    font-weight: bolder;
+    font-weight: light;
     font-size: 1.2rem;
+}
+
+.MediaLinks a:hover{
+    transition: all 1   s ease 0s;
+    color: rgba(245, 245, 245, 0.692);
 }
 
 #eShop{
