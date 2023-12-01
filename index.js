@@ -10,6 +10,8 @@ const LinkMedia = document.querySelector('#linkMedia');
 const SectionOne = document.querySelector('.sectionOne');
 const LinkEshop = document.querySelector('#linkEshop');
 const Eshop = document.querySelector('#eShop');
+const News =  document.querySelector('#LinkNews');
+const Enews = document.querySelector('#LinkNewsSection');
 
 LinkMedia.addEventListener('mouseover', () =>{
     if (Media.style.display === "none") {
@@ -33,6 +35,19 @@ LinkEshop.addEventListener('mouseover', () =>{
      } else {
 
         Eshop.style.display = "none";
+        
+    }
+    
+    
+});
+
+News.addEventListener('mouseover', () =>{
+    if (Enews.style.display === "none") {
+        Enews.style.display = "block";
+
+     } else {
+
+        Enews.style.display = "none";
         
     }
     
