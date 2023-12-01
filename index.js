@@ -22,8 +22,7 @@ LinkMedia.addEventListener('mouseover', () =>{
         Media.style.display = "none";
         
     }
-
-    
+  
 });
 
 
