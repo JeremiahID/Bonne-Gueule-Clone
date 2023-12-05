@@ -57,11 +57,27 @@ News.addEventListener('mouseover', () =>{
 
 const Search = document.querySelector('#search');
 const SearchSection = document.querySelector('#searchSection');
+const CloseSearch =  document.querySelector('#closeSearch')
 
 Search.addEventListener("click" , () =>{
-    console.log("This is working")
     if (SearchSection.style.display === "none") {
         SearchSection.style.display = "block";
+        SearchSection.style.display = "flex";
+
+
+     } else {
+
+        SearchSection.style.display = "none";
+        
+    }
+
+});
+
+CloseSearch.addEventListener("click" , () =>{
+    if (SearchSection.style.display === "block") {
+        SearchSection.style.display = "none";
+       
+
 
      } else {
 

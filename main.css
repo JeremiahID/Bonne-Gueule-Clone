@@ -77,11 +77,10 @@ svg {
     align-items: center;
 }
 
-.svg a{
-    color: rgb(17, 16, 16);
-    text-decoration: none;
-    font-family: Bodoni Moda;
-    font-weight: bolder;
+.svg li:hover{
+    cursor:pointer ;
+    color:rgb(247, 185, 105);
+    transition:all 0.5s ease 0s;
 }
 
 
@@ -561,11 +560,60 @@ input[type="email"]::placeholder{
 /* This is  the styling for the Svg's on click */
 #searchSection{
     display: none;
-    height: 20vh;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
     top: 15.2vh;
-    width: 92.6%;
-    background-color:rgb(165, 57, 27)
+    left: 0vw;
+    background-color:#fff;
+
 }
+
+.searchContent{
+    width:90%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.searchContent button{
+   margin:0px;
+   width: 2vw;
+   background-color: transparent;
+   
+   
+
+}
+
+.searchContent button svg{
+    width: 2vw;
+    height: 5vh;
+    color:black;
+   
+
+}
+
+.searchContent input{
+    width: 90%;
+    height: 5vh;
+    border: 0px;
+    outline:0px;
+    
+}
+
+.searchContent input:focus{
+  border-bottom:1px solid rgba(0, 0, 0, 0.616);
+    
+}
+
+.searchContent input::placeholder{
+    padding-left: 0.3rem;
+
+}
+
 
 
 
