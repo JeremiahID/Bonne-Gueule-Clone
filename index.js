@@ -55,7 +55,21 @@ News.addEventListener('mouseover', () =>{
 });
 
 
+const Search = document.querySelector('#search');
+const SearchSection = document.querySelector('#searchSection');
 
+Search.addEventListener("click" , () =>{
+    console.log("This is working")
+    if (SearchSection.style.display === "none") {
+        SearchSection.style.display = "block";
+
+     } else {
+
+        SearchSection.style.display = "none";
+        
+    }
+
+});
 
 
 // if (Media.style.display === "none") {

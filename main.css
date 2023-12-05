@@ -480,14 +480,14 @@ input[type="email"]::placeholder{
     margin-top: 3vh;
     width: 100%;
     height: 50.8vh;
-    border: 1px solid red;
+    row-gap: 1rem;
     display: grid;
     grid-template-columns: 17vw 5vw 17vw 5vw 40vw 16vw;
     grid-template-rows:1fr 1fr ;
 
 }
 
-.FirstLink, .SecondLink{
+.FirstLink, .SecondLink, .empty{
     grid-column: span 1;
     grid-row: span 1;
     display: flex;
@@ -498,29 +498,50 @@ input[type="email"]::placeholder{
 }
 
 :where(.FirstLink, .SecondLink) :is(a){
-    color: grey;
+    color: rgba(37, 37, 37, 0.829);
     text-decoration: none;
     font-size: 1rem;
     align-self: baseline;
     padding-left: 2rem;
+    font-family:Lora;
+}
+
+
+:where(.FirstLink, .SecondLink) :is(a:hover){
+    color: rgba(15, 13, 13, 0.829);
+
+
 }
 
 .space{
     grid-column: span 1;
     grid-row: span 2;
-    background-color: rgba(255, 94, 0, 0.445) ;
 }
 
 .NewsImage{
     grid-column: span 1;
     grid-row: span 1;
-    background-color:black;
+    background-image: url("Slider\ man.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.NewsImageTwo{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url("Slider\ cloth.jpeg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .spaceEnd{
     grid-column: span 1;
     grid-row: span 2;
-    background-color: rgba(255, 94, 0, 0.445) ;
+    border-left: 1px solid rgba(128, 128, 128, 0.527);
 }
 
 
@@ -534,6 +555,16 @@ input[type="email"]::placeholder{
     width: 100%;
     background-color:rgb(247, 185, 105);
 
+}
+
+
+/* This is  the styling for the Svg's on click */
+#searchSection{
+    display: none;
+    height: 20vh;
+    top: 15.2vh;
+    width: 92.6%;
+    background-color:rgb(165, 57, 27)
 }
 
 
