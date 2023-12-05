@@ -436,7 +436,7 @@ input[type="email"]::placeholder{
     top: 15.2vh;
     left: 3.52vw;
     width: 92.6%;
-    background-color:rgb(247, 185, 105);
+    background-color:rgb(165, 57, 27)
 }
 
 
@@ -490,7 +490,19 @@ input[type="email"]::placeholder{
 .FirstLink, .SecondLink{
     grid-column: span 1;
     grid-row: span 1;
-    background-color:black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center  ;
+
+}
+
+:where(.FirstLink, .SecondLink) :is(a){
+    color: grey;
+    text-decoration: none;
+    font-size: 1rem;
+    align-self: baseline;
+    padding-left: 2rem;
 }
 
 .space{
