@@ -51,7 +51,6 @@ News.addEventListener('mouseover', () =>{
         
     }
     
-    
 });
 
 
