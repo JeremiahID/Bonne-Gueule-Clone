@@ -89,8 +89,9 @@ const LoginSection = document.querySelector('#loginSection');
 const SectionTwo = document.querySelector('.sectionTwo');
 const SectionThree = document.querySelector('.sectionThree');
 const SectionFour = document.querySelector('.sectionFour');
+const SectionFive = document.querySelector('.sectionFive');
 const CloseLogin = document.querySelector('#closeLogin');
-const Main = document.getElementsByTagName('main')
+
 
 
 
@@ -98,8 +99,10 @@ Login.addEventListener('click' , () =>{
     if(LoginSection.style.display === "none"){
         LoginSection.style.display = "block";
         LoginSection.style.display = "flex";
-        Main.style.height = "99.9vh"
- 
+        SectionTwo.classList.add('hide');
+        SectionFour.classList.add('hide');
+        SectionOne.classList.add('hide');
+        
 
     } else {
 
@@ -114,10 +117,12 @@ CloseLogin.addEventListener("click" , () =>{
     if (LoginSection.style.display === "block"){
         LoginSection.style.display = "none";
 
-
      } else {
 
         LoginSection.style.display = "none";
+        SectionTwo.classList.remove('hide');
+        SectionFour.classList.remove('hide');
+        SectionOne.classList.remove('hide');
         
     }
 

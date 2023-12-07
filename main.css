@@ -428,14 +428,14 @@ input[type="email"]::placeholder{
 
 #media{
     display: none;
-    height: 10vh;
+    height: 10.2vh;
     justify-content: center;
     align-items: center;
     position:absolute;
-    top: 15.2vh;
-    left: 3.52vw;
-    width: 92.6%;
-    background-color:rgb(165, 57, 27)
+    top: 15vh;
+    left: 0vw;
+    width: 100%;
+    background-color:rgb(247, 185, 105);
 }
 
 
@@ -617,7 +617,7 @@ input[type="email"]::placeholder{
 /* This is  the styling for the Contact-Login on click */
 #loginSection{
     display:none;
-    height:99.9vh;
+    height:100vh;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -625,6 +625,7 @@ input[type="email"]::placeholder{
     position: absolute;
     top: 0px;
     right: 0px;
+   
 
 }
 
@@ -632,7 +633,56 @@ input[type="email"]::placeholder{
     height:90vh;
     width: 40vw;
     background-color: whitesmoke;
+    border-radius:2px ;
 }
+
+#closeLogin{
+    border: 1px solid burlywood;
+    width: 3vw;
+    height:5vh ;
+    background-color: transparent;
+    color: black;
+    position: relative;
+    left: 30vw;
+    top: 0vh;
+    
+}
+
+#closeLogin:hover{
+    background-color: burlywood;
+    color:white;
+    transition:all 0.4s ease 0s;
+}
+
+.form h2{
+    padding: 3rem;
+    text-align: center;
+    font-family: Lora;
+}
+
+.form input{
+    width:33vw;
+    height:7vh;
+    margin-left:4vw;
+    margin-top:2vh;
+    border: 0px;
+    outline:0px;
+    background-color:transparent;
+    border-bottom:1px solid black;
+}
+
+
+
+.form input::placeholder{
+    padding: 1rem;
+}
+
+#connect{
+    font-family:Lora;
+    margin-top:5vh;
+    margin-left: 12vw;
+}
+
 
 .hide{
     display:none;
