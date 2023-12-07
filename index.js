@@ -75,7 +75,6 @@ Search.addEventListener("click" , () =>{
 CloseSearch.addEventListener("click" , () =>{
     if (SearchSection.style.display === "block") {
         SearchSection.style.display = "none";
-       
 
      } else {
 
