@@ -77,7 +77,6 @@ CloseSearch.addEventListener("click" , () =>{
         SearchSection.style.display = "none";
        
 
-
      } else {
 
         SearchSection.style.display = "none";
