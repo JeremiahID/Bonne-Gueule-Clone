@@ -159,7 +159,7 @@ svg {
     background-image: url("boutiques.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size:contain ;
+    background-size:cover ;
 
 }
 
@@ -555,7 +555,7 @@ input[type="email"]::placeholder{
 
 }
 
-/* This is  the styling for the Svg's on click */
+                                /* This is  the styling for the Svg's on click */
 
 /* This is  the styling for the Search on click */
 #searchSection{
@@ -617,16 +617,37 @@ input[type="email"]::placeholder{
 /* This is  the styling for the Contact-Login on click */
 #loginSection{
     display:none;
-    height:83vh;
+    height:99.9vh;
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.445);
+    background-color: rgba(0, 0, 0, 0.685);
     position: absolute;
-    
-
+    top: 0px;
+    right: 0px;
 
 }
+
+.form{
+    height:90vh;
+    width: 40vw;
+    background-color: whitesmoke;
+}
+
+.size{
+    height: 99.9vh;
+    width: 100%;
+}
+
+/* .hide{
+    display:none;
+}
+
+.show{
+    display:block;
+} */
+
+
 
 
 

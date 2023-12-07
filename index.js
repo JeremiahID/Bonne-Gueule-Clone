@@ -86,26 +86,55 @@ CloseSearch.addEventListener("click" , () =>{
 
 const Login = document.querySelector('#login');
 const LoginSection = document.querySelector('#loginSection');
+const SectionTwo = document.querySelector('.sectionTwo');
+const SectionThree = document.querySelector('.sectionThree');
+const SectionFour = document.querySelector('.sectionFour');
+const CloseLogin = document.querySelector('#closeLogin');
+const Body = document.querySelector('.body');
+
+
 
 Login.addEventListener('click' , () =>{
     if(LoginSection.style.display === "none"){
+        Body.classList.toggle('size');
         LoginSection.style.display = "block";
+        LoginSection.style.display = "flex";
+       
 
     } else {
 
         LoginSection.style.display = "none";
+
     }
-})
+});
 
 
+CloseLogin.addEventListener("click" , () =>{
+    if (LoginSection.style.display === "block") {
+        LoginSection.style.display = "none";
+
+     } else {
+
+        LoginSection.style.display = "none";
+        
+    }
+
+});
 
 
-
-
-
-
-
-
+// SectionOne.classList.toggle('hide');
+// SectionTwo.classList.remove('hide');
+// SectionThree.classList.remove('hide');
+// SectionFour.classList.remove('hide');
+// SectionOne.classList.remove('hide');
+// const SectionTwo = document.querySelector('.sectionTwo');
+// const SectionThree = document.querySelector('.sectionThree');
+// const SectionFour = document.querySelector('.sectionFour');
+// const SectionFive = document.querySelector('.sectionFive');
+// SectionTwo.style.display = "none";
+// SectionThree.style.display = "none";
+// SectionFour.style.display = "none";
+// SectionFive.style.display = "none";
 
 
 
