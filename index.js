@@ -90,28 +90,30 @@ const SectionTwo = document.querySelector('.sectionTwo');
 const SectionThree = document.querySelector('.sectionThree');
 const SectionFour = document.querySelector('.sectionFour');
 const CloseLogin = document.querySelector('#closeLogin');
-const Body = document.querySelector('.body');
+const Main = document.getElementsByTagName('main')
 
 
 
 Login.addEventListener('click' , () =>{
     if(LoginSection.style.display === "none"){
-        Body.classList.toggle('size');
         LoginSection.style.display = "block";
         LoginSection.style.display = "flex";
-       
+        Main.style.height = "99.9vh"
+ 
 
     } else {
 
         LoginSection.style.display = "none";
+      
 
     }
 });
 
 
 CloseLogin.addEventListener("click" , () =>{
-    if (LoginSection.style.display === "block") {
+    if (LoginSection.style.display === "block"){
         LoginSection.style.display = "none";
+
 
      } else {
 
