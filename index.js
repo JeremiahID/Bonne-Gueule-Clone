@@ -86,6 +86,30 @@ CloseSearch.addEventListener("click" , () =>{
 
 });
 
+const Login = document.querySelector('#login');
+const LoginSection = document.querySelector('#loginSection');
+
+Login.addEventListener('click' , () =>{
+    if(LoginSection.style.display === "none"){
+        LoginSection.style.display = "block";
+
+    } else {
+
+        LoginSection.style.display = "none";
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
 
 // if (Media.style.display === "none") {
 //     Media.style.display = "block";

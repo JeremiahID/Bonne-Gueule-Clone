@@ -556,6 +556,8 @@ input[type="email"]::placeholder{
 }
 
 /* This is  the styling for the Svg's on click */
+
+/* This is  the styling for the Search on click */
 #searchSection{
     display: none;
     height: 15vh;
@@ -611,6 +613,22 @@ input[type="email"]::placeholder{
     padding-left: 0.3rem;
 
 }
+
+/* This is  the styling for the Contact-Login on click */
+#loginSection{
+    display:none;
+    height:83vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.445);
+    position: absolute;
+    
+
+
+}
+
+
 
 
 
