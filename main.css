@@ -669,7 +669,7 @@ input[type="email"]::placeholder{
     border: 0px;
     outline: 0px;
     border-radius: 0px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.644);
     color: rgba(0, 0, 0, 0.76);
     font-family: Calibri;
     font-weight: bold;
@@ -686,16 +686,18 @@ input[type="email"]::placeholder{
     background-color: transparent;
     border: 0px;
     outline: 0px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.644);
     color: rgba(0, 0, 0, 0.767);
     font-family: Calibri;
     font-weight: bold;
 
-
 }
 
+
 .form input::placeholder{
-    color: rgba(0, 0, 0, 0.507);
+    color: rgba(0, 0, 0, 0.63);
+    font-family: Lora;
+    font-weight: light;
 }
 
 #connect{
@@ -720,7 +722,7 @@ input[type="email"]::placeholder{
 #option{
     width: 33vw;
     margin-top: 3vh;
-    margin-left: 4vw;
+    margin-left: 3vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
