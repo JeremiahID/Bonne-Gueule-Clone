@@ -658,23 +658,46 @@ input[type="email"]::placeholder{
     padding: 3rem;
     text-align: center;
     font-family: Lora;
+    color: rgba(0, 0, 0, 0.822);
 }
 
-.form input{
-    width:33vw;
-    height:7vh;
-    margin-left:4vw;
-    margin-top:2vh;
+.form input[type="email"]{
+    width: 33vw;
+    height: 4vh;
+    margin-left: 4vh;
+    padding: 0.4rem;
     border: 0px;
-    outline:0px;
-    background-color:transparent;
-    border-bottom:1px solid black;
+    outline: 0px;
+    border-radius: 0px;
+    border-bottom: 1px solid black;
+    color: rgba(0, 0, 0, 0.76);
+    font-family: Calibri;
+    font-weight: bold;
+
+
+}
+
+.form input[type="password"]{
+    width: 33vw;
+    height: 4vh;
+    margin-left: 4vh;
+    margin-top: 4vh;
+    padding: 0.4rem;
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid black;
+    color: rgba(0, 0, 0, 0.767);
+    font-family: Calibri;
+    font-weight: bold;
+
+
 }
 
 
 
 .form input::placeholder{
-    padding: 1rem;
+    color: rgba(0, 0, 0, 0.507);
 }
 
 #connect{
