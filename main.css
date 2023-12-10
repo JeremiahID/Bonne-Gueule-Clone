@@ -694,8 +694,6 @@ input[type="email"]::placeholder{
 
 }
 
-
-
 .form input::placeholder{
     color: rgba(0, 0, 0, 0.507);
 }
@@ -704,7 +702,38 @@ input[type="email"]::placeholder{
     font-family:Lora;
     margin-top:5vh;
     margin-left: 12vw;
+    margin-bottom: 2vh;
 }
+
+.form a{
+    color:grey;
+    padding-left:15vw;
+    font-family: calibri;
+    letter-spacing: 1px;
+    
+}
+
+.form a:hover{
+    color: rgb(165, 71, 42);
+}
+
+#option{
+    width: 33vw;
+    margin-top: 3vh;
+    margin-left: 4vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#option hr{
+    height:0.000001rem;
+    width: 15vw;
+   border: 0.000001rem solid rgba(128, 128, 128, 0.219);
+
+}
+
 
 
 .hide{
