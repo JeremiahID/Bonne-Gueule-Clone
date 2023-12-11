@@ -735,6 +735,41 @@ input[type="email"]::placeholder{
 
 }
 
+.socialLogin{
+    margin-left:8vw;
+    margin-top:4vh;
+}
+
+.socialLogin a{
+    all: unset;
+    padding: 0.5rem;
+    margin-left: 3rem;
+    border-radius: 50px;
+    width:15vw;
+    border: 1px solid rgba(224, 110, 57, 0.658);
+    cursor:pointer;
+    color: rgb(165, 71, 42);
+    font-family: calibri;
+}
+
+.socialLogin a:hover{
+    transition:all 0.7s ease 0s;
+    background-color: rgb(165, 71, 42);
+    color:whitesmoke;
+    border: 1px solid rgb(165, 71, 42);
+}
+
+#checkIn{
+    margin-left:11vw;
+    margin-top: 6vh;
+    color:rgb(61, 58, 58);
+    font-family:calibri;
+}
+
+#checkIn a{
+    margin:0px;
+    padding-left:4px;
+}
 
 
 .hide{
