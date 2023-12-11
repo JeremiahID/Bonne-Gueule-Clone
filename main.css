@@ -693,7 +693,6 @@ input[type="email"]::placeholder{
 
 }
 
-
 .form input::placeholder{
     color: rgba(0, 0, 0, 0.63);
     font-family: Lora;
