@@ -107,11 +107,10 @@ Login.addEventListener('click' , () =>{
     } else {
 
         LoginSection.style.display = "none";
-      
+
 
     }
 });
-
 
 CloseLogin.addEventListener("click" , () =>{
     if (LoginSection.style.display === "block"){
