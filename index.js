@@ -128,6 +128,38 @@ CloseLogin.addEventListener("click" , () =>{
 
 });
 
+const Cart = document.querySelector('#cart');
+const CartSection = document.querySelector('#cartSection');
+const CloseCart = document.querySelector('#closeCart')
+
+Cart.addEventListener('click' , () =>{
+    if(CartSection.style.display === "none"){
+        CartSection.style.display = "block";
+        SectionTwo.classList.add('hide');
+        SectionFour.classList.add('hide');
+        SectionOne.classList.add('hide');
+
+    } else {
+        CartSection.style.display = "none"
+    }
+
+});
+
+CloseCart.addEventListener('click' , () =>{
+    if (CartSection.style.display === "block"){
+        CartSection.style.display = "none";
+        SectionTwo.classList.remove('hide');
+        SectionFour.classList.remove('hide');
+        SectionOne.classList.remove('hide');
+
+     } else {
+        CartSection.style.display = "none";
+
+        
+    }
+
+})
+
 
 // SectionOne.classList.toggle('hide');
 // SectionTwo.classList.remove('hide');
