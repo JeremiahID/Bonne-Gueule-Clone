@@ -124,7 +124,6 @@ CloseLogin.addEventListener("click" , () =>{
         SectionOne.classList.remove('hide');
         
     }
-
 });
 
 const Cart = document.querySelector('#cart');
