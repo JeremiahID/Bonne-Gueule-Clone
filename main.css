@@ -557,7 +557,7 @@ input[type="email"]::placeholder{
     left: 0vw;
     width: 100%;
     height: 74.8vh;
-    background-color:green;
+    background-color:#fff;
 
 }
 
@@ -572,24 +572,49 @@ input[type="email"]::placeholder{
 
 }
 
+
 .linkOne{
     grid-column: span 1;
     grid-row: span 1;
-    border:1px solid orangered;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center ;
 
 }
 
 .linkTwo{
     grid-column: span 1;
     grid-row: span 1;
-    border:1px solid black;
-   
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center ;
+
 }
 
+:where(.linkOne, .linkTwo) :is(a){
+    align-self: baseline;
+    padding: 0.4rem;
+    text-decoration: none;
+    color: rgb(48, 46, 46);
+    font-family: Lora;
+    font-weight:light;
+}
+
+:where(.linkOne, .linkTwo) :is(a:hover){
+    transition:all 0.3s ease 0s;
+    color: rgb(236, 180, 106);
+}
+
+
 .styleImage{
-    border: 1px solid brown;
     grid-column: span 1;
     grid-row: span 1;
+    background-image:url('style1.jpeg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-right: 1.5rem;
 }
 
 .linkThree{
@@ -605,9 +630,12 @@ input[type="email"]::placeholder{
 }
 
 .styleImageTwo{
-    border: 1px solid burlywood;
     grid-column: span 1;
     grid-row: span 1;
+    background-image:url('style2.jpeg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-right: 1.5rem;
 }
 
 
