@@ -12,6 +12,8 @@ const LinkEshop = document.querySelector('#linkEshop');
 const Eshop = document.querySelector('#eShop');
 const News =  document.querySelector('#LinkNews');
 const Enews = document.querySelector('#LinkNewsSection');
+const Style = document.querySelector('#StyleTips');
+const StyleSection = document.querySelector('#StyleTipsSection');
 
 LinkMedia.addEventListener('mouseover', () =>{
     if (Media.style.display === "none") {
@@ -52,6 +54,19 @@ News.addEventListener('mouseover', () =>{
     }
     
 });
+
+Style.addEventListener('mouseover', () =>{
+    if (StyleSection.style.display === "none") {
+        StyleSection.style.display = "block";
+
+     } else {
+
+        StyleSection.style.display = "none";
+        
+    }
+    
+});
+
 
 
 const Search = document.querySelector('#search');
