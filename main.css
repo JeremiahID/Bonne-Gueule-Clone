@@ -558,6 +558,7 @@ input[type="email"]::placeholder{
     width: 100%;
     height: 74.8vh;
     background-color:#fff;
+    overflow: hidden;
 
 }
 
@@ -571,7 +572,6 @@ input[type="email"]::placeholder{
     grid-template-rows:1fr 1fr ;
 
 }
-
 
 .linkOne{
     grid-column: span 1;
@@ -593,7 +593,7 @@ input[type="email"]::placeholder{
 
 }
 
-:where(.linkOne, .linkTwo) :is(a){
+:where(.linkOne, .linkTwo, .linkThree, .linkFour) :is(a){
     align-self: baseline;
     padding: 0.4rem;
     text-decoration: none;
@@ -602,7 +602,7 @@ input[type="email"]::placeholder{
     font-weight:light;
 }
 
-:where(.linkOne, .linkTwo) :is(a:hover){
+:where(.linkOne, .linkTwo, .linkThree, .linkFour) :is(a:hover){
     transition:all 0.3s ease 0s;
     color: rgb(236, 180, 106);
 }
@@ -614,19 +614,50 @@ input[type="email"]::placeholder{
     background-image:url('style1.jpeg');
     background-repeat:no-repeat;
     background-size: cover;
-    margin-right: 1.5rem;
+    margin-right: 1rem;
+}
+
+.spaceEndStyle{
+    grid-column: span 1;
+    grid-row: span 2;
+    border-left: 1px solid rgba(128, 128, 128, 0.527);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center ;
+    
+}
+
+.spaceEndStyle a{
+    padding: 0.4rem;
+    text-decoration: none;
+    color: rgb(48, 46, 46);
+    font-family: Lora;
+    font-weight:500;
+}
+
+
+.spaceEndStyle a:hover{
+    transition:all 0.3s ease 0s;
+    color: rgb(236, 180, 106);
 }
 
 .linkThree{
-    border: 1px solid brown;
     grid-column: span 1;
     grid-row: span 1;
+    display: flex;
+    justify-content:left;
+    flex-direction: column;
+    align-items: center ;
 }
 
 .linkFour{
-    border: 1px solid brown;
     grid-column: span 1;
     grid-row: span 1;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center ;
 }
 
 .styleImageTwo{
@@ -635,7 +666,7 @@ input[type="email"]::placeholder{
     background-image:url('style2.jpeg');
     background-repeat:no-repeat;
     background-size: cover;
-    margin-right: 1.5rem;
+    margin-right: 1rem;
 }
 
 
