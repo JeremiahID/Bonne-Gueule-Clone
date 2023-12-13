@@ -572,6 +572,44 @@ input[type="email"]::placeholder{
 
 }
 
+.linkOne{
+    grid-column: span 1;
+    grid-row: span 1;
+    border:1px solid orangered;
+
+}
+
+.linkTwo{
+    grid-column: span 1;
+    grid-row: span 1;
+    border:1px solid black;
+   
+}
+
+.styleImage{
+    border: 1px solid brown;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.linkThree{
+    border: 1px solid brown;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.linkFour{
+    border: 1px solid brown;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.styleImageTwo{
+    border: 1px solid burlywood;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
 
 
 
