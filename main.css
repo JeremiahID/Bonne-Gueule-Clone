@@ -347,11 +347,25 @@ input[type="email"]{
    
 }
 
-input[type="email"]::placeholder{
-    color: whitesmoke;
-    font-family: Lora;
+input[type="email"]:focus{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    color: black;
+    outline:0px;
    
 }
+
+input[type="email"]::placeholder{
+    color: whitesmoke;
+    font-family: Lora;   
+}
+
+input[type="email"]:focus::placeholder{
+    color: black;
+    font-family: Lora;   
+}
+
+
 
 .emailSubmit button{
     width: 25vw;
@@ -798,6 +812,7 @@ input[type="email"]::placeholder{
     margin-left: 4vh;
     padding: 0.4rem;
     border: 0px;
+    background-color: transparent;
     outline: 0px;
     border-radius: 0px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.644);
@@ -807,6 +822,12 @@ input[type="email"]::placeholder{
 
 
 }
+.form input[type="email"]:focus::placeholder{
+    color: inherit;
+    background-color: whitesmoke;
+    font-family: Lora;   
+}
+
 
 .form input[type="password"]{
     width: 33vw;
