@@ -824,7 +824,7 @@ input[type="email"]:focus::placeholder{
 }
 .form input[type="email"]:focus::placeholder{
     color: inherit;
-    background-color: whitesmoke;
+    background-color: whitesmokehj;
     font-family: Lora;   
 }
 
