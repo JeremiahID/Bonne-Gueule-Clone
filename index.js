@@ -61,8 +61,7 @@ Style.addEventListener('mouseover', () =>{
 
      } else {
 
-        StyleSection.style.display = "none";
-        
+        StyleSection.style.display = "none";     
     }
     
 });
