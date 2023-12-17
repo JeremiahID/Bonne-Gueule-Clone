@@ -66,7 +66,6 @@ Style.addEventListener('mouseover', () =>{
     
 });
 
-
 const Search = document.querySelector('#search');
 const SearchSection = document.querySelector('#searchSection');
 const CloseSearch =  document.querySelector('#closeSearch')
