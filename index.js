@@ -16,6 +16,11 @@ const Style = document.querySelector('#StyleTips');
 const StyleSection = document.querySelector('#StyleTipsSection');
 const Guides = document.querySelector('#allGuides');
 const GuidesSection = document.querySelector('#allGuidesSection');
+const Trends = document.querySelector('#trends');
+const TrendsSection = document.querySelector('#trendsSection');
+const Fashion = document.querySelector('#fashions');
+const FashionsSection = document.querySelector('#fashionSection')
+
 
 LinkMedia.addEventListener('mouseover', () =>{
     if (Media.style.display === "none") {
@@ -75,6 +80,28 @@ Guides.addEventListener('mouseover' , () =>{
      } else {
 
         GuidesSection.style.display = "none";     
+    }    
+})
+
+
+Trends.addEventListener('mouseover' , () =>{
+    if (TrendsSection.style.display === "none") {
+        TrendsSection.style.display = "block";
+
+     } else {
+
+        TrendsSection.style.display = "none";     
+    }    
+})
+
+
+Fashion.addEventListener('mouseover' , () =>{
+    if (FashionsSection.style.display === "none") {
+        FashionsSection.style.display = "block";
+
+     } else {
+
+        FashionsSection.style.display = "none";     
     }    
 })
 

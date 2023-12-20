@@ -684,7 +684,7 @@ input[type="email"]:focus::placeholder{
     margin-right: 1rem;
 }
 
-/* This is  the styling for the Media sub section All GuidesMouseOver */
+/* This is  the styling for the Media sub section All Guides MouseOver */
 
 #allGuidesSection{
     display: none;
@@ -708,6 +708,60 @@ input[type="email"]:focus::placeholder{
     grid-template-columns: 17vw 5vw 17vw 5vw 40vw 16vw;
     grid-template-rows:1fr 1fr ;
 
+}
+
+
+/* This is  the styling for the Media sub section Trends MouseOver */
+
+#trendsSection{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 25.2vh;
+    left: 0vw;
+    width: 100%;
+    height: 74.8vh;
+    background-color:#fff;
+    overflow: hidden;
+
+}
+
+.TrendsLayout{
+    margin-top: 3vh;
+    width: 100%;
+    height: 50.8vh;
+    row-gap: 1rem;
+    display: grid;
+    grid-template-columns: 17vw 5vw 17vw 5vw 40vw 16vw;
+    grid-template-rows:1fr 1fr ;
+
+}
+
+/* This is  the styling for the Media sub section Fashions MouseOver */
+
+#fashionSection{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 25.2vh;
+    left: 0vw;
+    width: 100%;
+    height: 74.8vh;
+    background-color:#fff;
+    overflow: hidden;
+
+}
+
+.FashionLayout{
+    margin-top: 3vh;
+    width: 100%;
+    height: 50.8vh;
+    row-gap: 1rem;
+    display: grid;
+    grid-template-columns: 17vw 5vw 17vw 5vw 40vw 16vw;
+    grid-template-rows:1fr 1fr ;
 }
 
 
