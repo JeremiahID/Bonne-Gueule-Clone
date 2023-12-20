@@ -14,6 +14,8 @@ const News =  document.querySelector('#LinkNews');
 const Enews = document.querySelector('#LinkNewsSection');
 const Style = document.querySelector('#StyleTips');
 const StyleSection = document.querySelector('#StyleTipsSection');
+const Guides = document.querySelector('#allGuides');
+const GuidesSection = document.querySelector('#allGuidesSection');
 
 LinkMedia.addEventListener('mouseover', () =>{
     if (Media.style.display === "none") {
@@ -65,6 +67,16 @@ Style.addEventListener('mouseover', () =>{
     }
     
 });
+
+Guides.addEventListener('mouseover' , () =>{
+    if (GuidesSection.style.display === "none") {
+        GuidesSection.style.display = "block";
+
+     } else {
+
+        GuidesSection.style.display = "none";     
+    }    
+})
 
 const Search = document.querySelector('#search');
 const SearchSection = document.querySelector('#searchSection');
