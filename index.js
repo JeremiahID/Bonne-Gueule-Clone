@@ -1,9 +1,3 @@
-// const section = document.querySelector('section');
-// const element = document.querySelector('element');
-
-// element.addEventListener('mouseover', () => {
-//   section.style.display = 'block';
-// });
 
 const Media = document.querySelector('#media');
 const LinkMedia = document.querySelector('#linkMedia');
