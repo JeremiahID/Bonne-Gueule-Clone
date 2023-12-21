@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bonne Gueule</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="mobile.css" type="text/css" media="screen">
     <link rel="shortcut icon" href="secondary-white.svg" type="image/x-icon">
 </head>
 <body>
     <header>
+
+        <button id="hamburger">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              
+        </button>
+
         <div class="logo">
             <a href="">
                 <img src="primary.svg" alt="" srcset="">
@@ -67,6 +76,20 @@
     </header>
 
     <main>
+
+                            <!--This is the mobile view search bar-->
+
+    <div id="mobile-search">
+        <input type="search" placeholder="Search">
+
+        <button>
+
+            <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"      stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+        </button>
+
+    </div>
 
                               <!--This is the sections for the hover pages for links-->
 

@@ -26,6 +26,14 @@ body{
     height:99.9vh;
 }
 
+#hamburger{
+    display:none;
+}
+
+#mobile-search{
+    display: none;
+}
+
 .logo{
     width: 20%;
     display: flex;
@@ -82,6 +90,7 @@ svg {
     color:rgb(247, 185, 105);
     transition:all 0.5s ease 0s;
 }
+
 
 
 /*This is the styling of first section */
@@ -807,8 +816,6 @@ input[type="email"]:focus::placeholder{
    width: 2vw;
    background-color: transparent;
    
-   
-
 }
 
 .searchContent button svg{
