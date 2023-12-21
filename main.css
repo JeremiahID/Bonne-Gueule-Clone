@@ -374,8 +374,6 @@ input[type="email"]:focus::placeholder{
     font-family: Lora;   
 }
 
-
-
 .emailSubmit button{
     width: 25vw;
     background-color: white;
