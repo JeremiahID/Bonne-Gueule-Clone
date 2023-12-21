@@ -112,7 +112,7 @@
      }
 
      .sectionTwo{
-        width: 90%;
+        width: 86%;
         height: 170vh;
         margin: 2rem;
      }
@@ -127,7 +127,7 @@
     }
 
     .sectionOneContent{
-        height: 100vh;
+        height: 90vh;
         width: 100%;
     }
 
@@ -164,6 +164,7 @@
 
     .sectionThree{
         height: 30vh;
+        width: 90%;
 
     }
 
@@ -208,7 +209,7 @@
     .sectionFour{
         margin-top: 2rem;
         height: 180vh;
-        width: 90%;
+        width: 86%;
         margin: 2rem;
 
     }
@@ -243,6 +244,19 @@
 
     .emailSubmit button{
         width: 35vw;
+    }
+
+    .sectionFive h1{
+        font-size: 1rem;
+    }
+
+    .footerLinks{
+        width: 80%;
+
+    }
+
+    .sectionFive p{
+        font-size: 0.5rem;
     }
     
 }
