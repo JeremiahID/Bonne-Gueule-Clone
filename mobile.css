@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,500&display=swap');
 
 
+
+
+
+
+
 @media screen and (max-width: 770px) {
 
     header{
@@ -112,7 +117,8 @@
      }
 
      .sectionTwo{
-        width: 86%;
+        width: 91%;
+        margin-top:0px;
         height: 170vh;
         margin: 2rem;
      }
@@ -127,7 +133,7 @@
     }
 
     .sectionOneContent{
-        height: 90vh;
+        height: 100vh;
         width: 100%;
     }
 
@@ -139,16 +145,20 @@
 
     .sectionTwoContent h1{
         padding-top: 2rem;
-        padding-left: 7rem;
+        padding-left: 15rem;
         font-size: 2rem;
 
     }
 
     .sectionTwoContent p{
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.2rem;
         padding-left: 5px;
     
+    }
+
+    #Space-Button{
+        margin-left: 16rem;
     }
 
     button{
@@ -158,13 +168,14 @@
     }
 
     .appointmentButton{
-        width: 48vw;
+        width: 40vw;
 
     }
 
     .sectionThree{
         height: 30vh;
-        width: 90%;
+        width: 91%;
+        margin: 2rem;
 
     }
 
@@ -209,7 +220,7 @@
     .sectionFour{
         margin-top: 2rem;
         height: 180vh;
-        width: 86%;
+        width: 91%;
         margin: 2rem;
 
     }
@@ -259,4 +270,92 @@
         font-size: 0.5rem;
     }
     
+}
+
+@media screen and (max-width: 430px) {
+    .sectionTwo{
+        width:85%;
+    }
+
+    .sectionOneContent{
+        height: 90vh;
+    }
+
+    .sectionTwoContent{
+        height: 80vh;
+    }
+
+    .sectionTwoContent h1{
+        padding-top: 2rem;
+        padding-left: 4rem;
+        font-size: 1.5rem;
+
+    }
+    .sectionTwoContent p{
+        text-align: center;
+        font-size: 1rem;
+        padding-left: 5px;
+    
+    }
+
+    #Space-Button{
+        margin-left: 7rem;
+    }
+
+    button{
+        width: 35vw;
+        margin-left: 11vw;
+
+    }
+
+    .appointmentButton{
+        width: 65vw;
+
+    }
+
+    .sectionThree{
+        height: 30vh;
+        width: 90%;
+        margin: 1rem;
+        border:1px solid red;
+
+    }
+    .sectionThree a{
+        height: 17vh;
+        width: 20vw;
+        border:1px solid green;
+    
+    }
+
+    .sectonThree a span{
+        padding: 0px;
+    }
+
+    .sectionThree a svg{
+        color: rgba(255, 94, 0, 0.671);
+        height: 5vh;
+        width:5vw ;
+    
+    }
+    
+    .sectionThree a h2{
+        font-family:Lora;
+        font-size: 0.3rem;
+    }
+    
+    .sectionThree a h2::first-letter{
+        font-size: 0.5rem;
+    
+    }
+    
+    .sectionThree a p{
+        font-family:Lora;
+        font-size: 0.2rem;
+        font-weight: 500;
+    }
+ 
+
+
+
+ 
 }
