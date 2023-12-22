@@ -2,14 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,500&display=swap');
 
 
-
-
-
-
-
 @media screen and (max-width: 770px) {
 
-    header{
+    header{ 
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -23,21 +18,21 @@
         background-color: transparent;
         color: black;
         cursor: pointer;
-        width: 6vw;
-        margin:0rem;
+        width: 10vw;
+        margin:0rem 1rem;
  
     
     }
 
     #hamburger svg{
         width: 6vh;
-        margin-left: 1.2rem;
         padding:0px;
+
     }
     
     .logo a img{
         width: 45vw;
-        height: 10vh;
+        
     
     }
 
@@ -51,10 +46,25 @@
 
     #anchor ul {
         width: 100%;
-        height:50vh;
-        display: inline-block;
-        background-color: gold;
+        height:44.2vh;
+        display: block;
+        background-color: #0c0b0b;    
 
+    }
+
+    #anchor ul li{
+        width: 100%;
+        border-bottom:1px solid rgb(255, 255, 255);
+        text-align: center; 
+        padding: 1.26rem 0rem;
+
+    }
+
+    li a{
+        width: 100%;
+        color:#fff;
+        
+       
     }
 
     #search, #location, #login{
@@ -63,8 +73,9 @@
     }
 
     ul svg{
-        width: 6vh;
+        width: 5vh;
         margin: 0rem;
+
     }
 
     .svg{
@@ -129,6 +140,14 @@
          color:black;
         
      
+     }
+
+     #media{
+        all: unset;
+     }
+
+     #eShop{
+        all: unset;
      }
 
      .sectionOne{
@@ -299,6 +318,8 @@
     }
     
 }
+
+
 
 @media screen and (max-width: 430px) {
     #cartSection{
