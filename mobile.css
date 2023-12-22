@@ -57,8 +57,13 @@
 
     .cartHeader button{
         width: 5vw;
-        height:5vh;
+        height:7vh;
         margin-right: 4vw;
+    }
+
+    .cartHeader button svg{
+        width: 8vw;
+        height:5vh;
     }
 
     #mobile-search{
@@ -269,11 +274,27 @@
 
     .sectionFive p{
         font-size: 0.5rem;
+        text-align: center;
     }
     
 }
 
 @media screen and (max-width: 430px) {
+    #cartSection{
+        width: 100%;
+    }
+
+    .cartHeader button{
+        width: 8vw;
+        height:5vh;
+        margin-right: 4vw;
+    }
+
+    .cartHeader button svg{
+        width: 8vw;
+        height:5vh;
+    }
+
     .sectionTwo{
         width:85%;
     }
@@ -352,6 +373,8 @@
     .sectionFive h1{
         text-align: center;
     }
+
+
 
  
 }
