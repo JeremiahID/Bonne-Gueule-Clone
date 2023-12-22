@@ -203,6 +203,25 @@ CloseCart.addEventListener('click' , () =>{
 })
 
 
+const Hamburger = document.querySelector('#hamburger');
+const Links = document.querySelector('#anchor');
+
+Hamburger.addEventListener('click' , () =>{
+    if(Links.style.display === 'none'){
+        Links.style.display = 'block';
+        SectionTwo.classList.add('hide');
+        SectionFour.classList.add('hide');
+        SectionOne.classList.add('hide');
+    } else {
+        Links.style.display = 'none';
+        SectionTwo.classList.remove('hide');
+        SectionFour.classList.remove('hide');
+        SectionOne.classList.remove('hide');
+    }
+
+})
+
+
 // SectionOne.classList.toggle('hide');
 // SectionTwo.classList.remove('hide');
 // SectionThree.classList.remove('hide');
