@@ -145,7 +145,8 @@
 
     .sectionTwoContent h1{
         padding-top: 2rem;
-        padding-left: 15rem;
+        padding-left: 0rem;
+        text-align:center;
         font-size: 2rem;
 
     }
@@ -278,17 +279,18 @@
     }
 
     .sectionOneContent{
-        height: 90vh;
+        height: 95vh;
     }
 
     .sectionTwoContent{
-        height: 80vh;
+        height: 75vh;
     }
 
     .sectionTwoContent h1{
         padding-top: 2rem;
-        padding-left: 4rem;
+        padding-left: 0rem;
         font-size: 1.5rem;
+        text-align:center;
 
     }
     .sectionTwoContent p{
@@ -299,7 +301,7 @@
     }
 
     #Space-Button{
-        margin-left: 7rem;
+        margin-left: 6rem;
     }
 
     button{
@@ -314,48 +316,42 @@
     }
 
     .sectionThree{
-        height: 30vh;
-        width: 90%;
         margin: 1rem;
-        border:1px solid red;
 
     }
     .sectionThree a{
-        height: 17vh;
+        height: 20vh;
         width: 20vw;
-        border:1px solid green;
+        gap: 1rem;
     
     }
-
-    .sectonThree a span{
-        padding: 0px;
-    }
-
-    .sectionThree a svg{
-        color: rgba(255, 94, 0, 0.671);
-        height: 5vh;
-        width:5vw ;
-    
-    }
-    
+  
     .sectionThree a h2{
-        font-family:Lora;
         font-size: 0.3rem;
     }
     
     .sectionThree a h2::first-letter{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     
     }
     
     .sectionThree a p{
-        font-family:Lora;
-        font-size: 0.2rem;
+        text-align: center;
+        font-size: 0.35rem;
         font-weight: 500;
     }
  
+    .sectionFour{
+        margin-top: 2rem;
+        height: 180vh;
+        width: 85%;
+        margin: 2rem;
 
+    }
 
+    .sectionFive h1{
+        text-align: center;
+    }
 
  
 }
