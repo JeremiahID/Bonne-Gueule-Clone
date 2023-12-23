@@ -108,7 +108,7 @@
     }
 
     #mobile-search input{
-        width: 85%;
+        width: 75%;
         height: 5vh;
         border: 0px;
         border-bottom:1px solid rgba(0, 0, 0, 0.616);
@@ -127,7 +127,7 @@
     }
 
     #mobile-search button{
-        margin:0px;
+        margin:20px;
         width: 5vw;
         background-color: transparent;
         
