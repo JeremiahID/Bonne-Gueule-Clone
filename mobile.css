@@ -142,12 +142,17 @@
      
      }
 
-     #media{
-        all: unset;
+     #media, #eShop{
+        height: 0px;
+        position:absolute;
+        top: 27vh;
+        left: 0vw;
+        width: 0%;
+        
      }
 
-     #eShop{
-        all: unset;
+     #LinkNews,  #StyleTips, #allGuides, #trends, #fashions, #videos{
+        display: none;
      }
 
      .sectionOne{
