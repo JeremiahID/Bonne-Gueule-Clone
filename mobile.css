@@ -353,9 +353,12 @@
         gap: 1rem;
     }
 
+    .Eshop-threeContent-one, .Eshop-fourContent-one{
+        margin-right:1rem;
+    }
+
     .spaceOne{
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 1rem;   
         margin-bottom: 0rem;
     }
     
@@ -473,8 +476,9 @@
     .sectionFour{
         margin-top: 2rem;
         height: 180vh;
-        width: 85%;
-        margin: 2rem;
+        width: 90%;
+        margin-left: 1rem;
+        margin-right: 1rem;
 
     }
 

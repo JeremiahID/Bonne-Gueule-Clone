@@ -298,6 +298,7 @@ button:hover{
     align-items: center;
 
 
+
 }
 .sectionFourLeft{
     width: 50%;
@@ -911,6 +912,7 @@ input[type="email"]:focus::placeholder{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+
 }
 
 .Eshop-threeContent-two{
@@ -927,6 +929,7 @@ input[type="email"]:focus::placeholder{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+
 }
 
 .Eshop-section-four a:hover{
