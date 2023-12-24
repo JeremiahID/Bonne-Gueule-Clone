@@ -790,6 +790,188 @@ input[type="email"]:focus::placeholder{
 
 }
 
+/* This is the css styling for the various section of the Eshop main page */
+
+.Eshop-section-one{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr;
+}
+
+.Eshop-section-one a{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url("Eshop-main.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin:1rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-decoration: none;
+    
+}
+
+.Eshop-section-one a:hover{
+    transition:all 0.5s ease-in-out 0s;
+    background-image: url("Eshop-hover.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+}
+
+
+.Eshop-section-one a button{
+    margin: 7rem 0rem;
+    font-family: Arial;
+    
+}
+
+.Eshop-section-two{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr;
+}
+
+.Eshop-section-two a{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url("Eshop-two-main.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin:1rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-decoration: none;
+    
+}
+
+.Eshop-section-two a:hover{
+    transition:all 0.5s ease-in-out 0s;
+    background-image: url("Eshop-two-hover.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+}
+
+
+.Eshop-section-two a button{
+    margin: 7rem 0rem;
+    font-family: Arial;
+    width: 25vw;
+    
+}
+
+.Eshop-section-three , .Eshop-section-four{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 3rem;
+}
+
+.Eshop-section-three a, .Eshop-section-four a{
+    grid-column: span 1;
+    grid-row: span 1;
+    margin-top: 1rem;
+    
+      
+}
+
+.Eshop-section-three a:hover{
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.685);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.spaceOne{
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+.spaceTwo{
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
+
+.Eshop-threeContent-one{
+    background-image: url("Eshop-three-left.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.Eshop-threeContent-two{
+    background-image: url("Eshop-three-right.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+
+
+.Eshop-fourContent-one{
+    background-image: url("Eshop-four-left.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.Eshop-section-four a:hover{
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.685);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.Eshop-fourContent-two{
+    background-image: url("Eshop-four-right.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                 /* This is  the styling for the Svg's on click */
 
 /* This is  the styling for the Search on click */

@@ -322,8 +322,36 @@
     .sectionFive p{
         font-size: 0.5rem;
         text-align: center;
+    }   
+
+    /*This is the styling for the Eshop layout */
+
+    .Eshop-section-two a{
+        grid-column: span 1;
+        grid-row: span 1;
+        background-image: url("Eshop-two-hover.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+
+    .Eshop-section-two a button{
+        margin: 7rem 0rem;
+        font-family: Arial;
+        width: 35vw;
+        text-align: center;
+        
+    }
+
+    .Eshop-section-three , .Eshop-section-four{
+        height: 200vh;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
     }
     
+
+
 }
 
 
