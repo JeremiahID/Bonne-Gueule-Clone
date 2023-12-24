@@ -326,19 +326,22 @@
 
     /*This is the styling for the Eshop layout */
 
+
+    .Eshop-section-one a{
+        margin:1rem 1rem;
+    
+    }
+
     .Eshop-section-two a{
-        grid-column: span 1;
-        grid-row: span 1;
         background-image: url("Eshop-two-hover.webp");
-        background-repeat: no-repeat;
-        background-size: cover;
+        margin:1rem 1rem;
     
     }
 
     .Eshop-section-two a button{
         margin: 7rem 0rem;
         font-family: Arial;
-        width: 35vw;
+        width: 45vw;
         text-align: center;
         
     }
@@ -348,6 +351,18 @@
         grid-template-columns: 1fr ;
         grid-template-rows: 1fr 1fr;
         gap: 1rem;
+    }
+
+    .spaceOne{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 0rem;
+    }
+    
+    .spaceTwo{
+        margin-right: 1rem;
+        margin-left: 1rem;
+       
     }
 
     
