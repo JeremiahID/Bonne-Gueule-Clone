@@ -205,12 +205,6 @@ CloseCart.addEventListener('click' , () =>{
 
 const Hamburger = document.querySelector('#hamburger');
 const Links = document.querySelector('#anchor');
-const EshopSectionOne = document.querySelector('.Eshop-section-one');
-const EshopSectionTwo = document.querySelector('.Eshop-section-two');
-const EshopSectionThree = document.querySelector('.Eshop-section-three');
-const EshopSectionFour = document.querySelector('.Eshop-section-four');
-const Hams = document.querySelector('#hamburger')
-
 
 Hamburger.addEventListener('click' , () =>{
     if(Links.style.display === 'none'){
@@ -230,21 +224,7 @@ Hamburger.addEventListener('click' , () =>{
 });
 
 
-Hams.addEventListener('click' , () =>{
-    if(Links.style.display === 'none'){
-        Links.style.display = 'block';
-        EshopSectionOne.classList.add('hide');
-        EshopSectionTwo.classList.add('hide');
-        EshopSectionThree.classList.add('hide');
-        EshopSectionFour.classList.add('hide');
-    } else {
-        Links.style.display = 'none';
-        EshopSectionOne.classList.remove('hide');
-        EshopSectionTwo.classList.remremove('hide');
-        EshopSectionThree.classList.remove('hide');
-        EshopSectionFour.classList.remove('hide');
-    }
-})
+
 
 
 // SectionOne.classList.toggle('hide');
