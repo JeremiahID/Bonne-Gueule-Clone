@@ -209,6 +209,7 @@ const EshopSectionOne = document.querySelector('.Eshop-section-one');
 const EshopSectionTwo = document.querySelector('.Eshop-section-two');
 const EshopSectionThree = document.querySelector('.Eshop-section-three');
 const EshopSectionFour = document.querySelector('.Eshop-section-four');
+const Hams = document.querySelector('#hamburger')
 
 
 Hamburger.addEventListener('click' , () =>{
@@ -217,25 +218,19 @@ Hamburger.addEventListener('click' , () =>{
         SectionTwo.classList.add('hide');
         SectionFour.classList.add('hide');
         SectionOne.classList.add('hide');
-        EshopSectionOne.classList.add('hide');
-        EshopSectionTwo.classList.add('hide');
-        EshopSectionThree.classList.add('hide');
-        EshopSectionFour.classList.add('hide');
+
     } else {
         Links.style.display = 'none';
         SectionTwo.classList.remove('hide');
         SectionFour.classList.remove('hide');
         SectionOne.classList.remove('hide');
-        EshopSectionOne.classList.remove('hide');
-        EshopSectionTwo.classList.remremove('hide');
-        EshopSectionThree.classList.remove('hide');
-        EshopSectionFour.classList.remove('hide');
+
     }
 
 });
 
 
-Hamburger.addEventListener('click' , () =>{
+Hams.addEventListener('click' , () =>{
     if(Links.style.display === 'none'){
         Links.style.display = 'block';
         EshopSectionOne.classList.add('hide');
