@@ -5,6 +5,7 @@ const EshopSectionOne = document.querySelector('.Eshop-section-one');
 const EshopSectionTwo = document.querySelector('.Eshop-section-two');
 const EshopSectionThree = document.querySelector('.Eshop-section-three');
 const EshopSectionFour = document.querySelector('.Eshop-section-four');
+const SectionTwoTest = document.querySelector('.sectionTwo');
 
 
 Hams.addEventListener('click' , () =>{
