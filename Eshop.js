@@ -7,7 +7,6 @@ const EshopSectionThree = document.querySelector('.Eshop-section-three');
 const EshopSectionFour = document.querySelector('.Eshop-section-four');
 const SectionTwoTest = document.querySelector('.sectionTwo');
 
-
 Hams.addEventListener('click' , () =>{
     if(Links.style.display === 'none'){
         Links.style.display = 'block';
