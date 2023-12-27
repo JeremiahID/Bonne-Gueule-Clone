@@ -466,7 +466,7 @@ input[type="email"]:focus::placeholder{
     grid-column: span 1;
     grid-row: span 1;
     background-color: #fff;
-    margin: 1.9rem;
+    margin: 2.5rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 54vh 8vh 8vh 5vh ;
