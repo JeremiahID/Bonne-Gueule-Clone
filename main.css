@@ -451,6 +451,106 @@ input[type="email"]:focus::placeholder{
 }
 
 
+/* This is the css styling for the various section of the Media main page */
+
+#Media-section-one{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr;
+    width: 100%;
+    height: 80vh;
+}
+
+
+.media-section-one-left, .media-section-one-right{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: #fff;
+    margin: 1.9rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 54vh 8vh 8vh 5vh ;
+}
+
+.media-section-one-left-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-one-left.webp');
+    background-size: conver;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+
+.media-section-one-button{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.media-section-one-button button{
+    width: 10vw;
+    height: 5vh;
+    margin: 0.8rem 0.2rem;
+    background-color: transparent;
+    border: 1px solid burlywood;
+    color: rgb(92, 34, 7);
+    font-family: calibri;
+}
+
+.media-section-one-text{
+    grid-column: span 1;
+    grid-row: span 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.media-section-one-text a{
+    color: rgb(2, 2, 37);
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: Lora;
+    padding-left: 0.5rem;
+}
+
+
+.scales{
+    grid-column: span 1;
+    grid-row: span 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.scales svg{
+    padding-left: 0.2rem;
+}
+
+.media-section-one-right-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-one-right.webp');
+    background-size: conver;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
                             /*This is the styling of HOVER section for the various links */
 
 
