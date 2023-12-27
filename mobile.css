@@ -328,7 +328,7 @@
         text-align: center;
     }   
 
-    /*This is the styling for the Eshop layout */
+    /*This is the styling for the mobile and tablet version Eshop layout */
 
 
     .Eshop-section-one a{
@@ -372,8 +372,23 @@
        
     }
 
-    .hide{
-        display:none;
+
+                /*This is the styling for the mobile and tablet version Eshop layout */
+
+    #Media-section-one{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 160vh;
+    }
+    .media-section-one-button button{
+        width: 25vw;
+        height: 6vh;
+        text-align: center;
+    }
+
+    .scales svg{
+
+        width: 3.5vw;
     }
 
 }
@@ -487,6 +502,34 @@
         text-align: center;
     }
 
+            /*This is the styling for the mobile and tablet version Eshop layout */
+
+    #Media-section-one{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 160vh;
+    }
+    .media-section-one-button button{
+        width: 20vw;
+        height: 6vh;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+
+    
+    .media-section-one-text a{
+        font-size: 1rem;
+    }
+
+    .scales svg{
+        width: 5.5vw;
+    }
+    .media-section-one-left-image,.media-section-one-right-image {
+        background-size: cover;
+        background-position: center;
+
+    }
+                
 
 
  

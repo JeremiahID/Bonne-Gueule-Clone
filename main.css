@@ -459,6 +459,7 @@ input[type="email"]:focus::placeholder{
     grid-template-rows:1fr;
     width: 100%;
     height: 80vh;
+    margin-bottom: 2rem;
 }
 
 
@@ -476,7 +477,7 @@ input[type="email"]:focus::placeholder{
     grid-column: span 1;
     grid-row: span 1;
     background-image: url('media-section-one-left.webp');
-    background-size: conver;
+    background-size: cover;
     background-position:top ;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -523,17 +524,19 @@ input[type="email"]:focus::placeholder{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    color: grey;
 }
 
 .scales svg{
-    padding-left: 0.2rem;
+    padding-left: 0.4rem;
+    width: 1.5vw;
 }
 
 .media-section-one-right-image{
     grid-column: span 1;
     grid-row: span 1;
     background-image: url('media-section-one-right.webp');
-    background-size: conver;
+    background-size: cover;
     background-position:top ;
     background-repeat: no-repeat;
     cursor: pointer;
