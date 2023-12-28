@@ -463,7 +463,8 @@ input[type="email"]:focus::placeholder{
 }
 
 
-.media-section-one-left, .media-section-one-right{
+.media-section-one-left, 
+.media-section-one-right{
     grid-column: span 1;
     grid-row: span 1;
     background-color: #fff;
@@ -485,12 +486,20 @@ input[type="email"]:focus::placeholder{
 }
 
 
-.media-section-one-button{
+.media-section-one-button, 
+.media-section-two-button,
+.media-section-three-button,
+.media-section-four-button,
+.media-section-five-button {
     grid-column: span 1;
     grid-row: span 1;
 }
 
-.media-section-one-button button{
+.media-section-one-button button, 
+.media-section-two-button button,
+.media-section-three-button button,
+.media-section-four-button button,
+.media-section-five-button button{
     width: 10vw;
     height: 5vh;
     margin: 0.8rem 0.2rem;
@@ -500,7 +509,17 @@ input[type="email"]:focus::placeholder{
     font-family: calibri;
 }
 
-.media-section-one-text{
+.media-section-one-button button:hover{ 
+    background-color:rgb(184, 74, 11);
+    border: 0px;
+    color: whitesmoke;
+}
+
+.media-section-one-text, 
+.media-section-two-text,
+.media-section-three-text,
+.media-section-four-text,
+.media-section-five-text{
     grid-column: span 1;
     grid-row: span 1;
     display: flex;
@@ -509,7 +528,11 @@ input[type="email"]:focus::placeholder{
 
 }
 
-.media-section-one-text a{
+.media-section-one-text a,
+.media-section-two-text a,
+.media-section-three-text a,
+.media-section-four-text a,
+.media-section-five-text a{
     color: rgb(2, 2, 37);
     font-size: 1.5rem;
     text-decoration: none;
@@ -542,13 +565,262 @@ input[type="email"]:focus::placeholder{
     cursor: pointer;
 
 }
+                          /* This is the styling for the media section two*/
+
+#Media-section-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 2rem;
+
+}
+
+.media-section-two-left,
+.media-section-two-middle, 
+.media-section-two-right{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: #fff;
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 34vh 8vh 8vh 5vh ;
+}
+
+.media-section-two-left-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-two-left.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-two-middle-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-two-middle.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-two-right-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-two-right.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-two-button button:hover{ 
+    background-color:rgb(184, 74, 11);
+    border: 0px;
+    color: whitesmoke;
+}
 
 
 
 
+                    /* This is the styling for the media section Three*/
+
+#Media-section-three{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 2rem;
+
+}
+
+.media-section-three-left,
+.media-section-three-middle, 
+.media-section-three-right{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: #fff;
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 34vh 8vh 8vh 5vh ;
+}
+
+.media-section-three-left-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-three-left.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-three-middle-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-three-middle.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-three-right-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-three-right.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-three-button button:hover{ 
+    background-color:rgb(184, 74, 11);
+    border: 0px;
+    color: whitesmoke;
+}
 
 
+    /* This is the styling for the media section Four*/
 
+#Media-section-four{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 2rem;
+
+}
+    
+.media-section-four-left,
+.media-section-four-middle, 
+.media-section-four-right{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: #fff;
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 34vh 8vh 8vh 5vh ;
+}
+
+.media-section-four-left-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-four-left.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-four-middle-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-four-middle.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-four-right-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-four-right.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-four-button button:hover{ 
+    background-color:rgb(184, 74, 11);
+    border: 0px;
+    color: whitesmoke;
+}         
+
+
+        /* This is the styling for the section five media */
+
+#Media-section-five{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 2rem;
+
+}
+    
+.media-section-five-left,
+.media-section-five-middle, 
+.media-section-five-right{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: #fff;
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 34vh 8vh 8vh 5vh ;
+}
+
+.media-section-five-left-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-five-left.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-five-middle-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-five-middle.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-five-right-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-five-right.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-five-button button:hover{ 
+    background-color:rgb(184, 74, 11);
+    border: 0px;
+    color: whitesmoke;
+}         
 
 
 

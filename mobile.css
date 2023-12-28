@@ -373,14 +373,23 @@
     }
 
 
-                /*This is the styling for the mobile and tablet version Eshop layout */
+                /*This is the styling for the mobile and tablet version Mdeia layout */
 
     #Media-section-one{
         display: grid;
         grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
         height: 160vh;
     }
-    .media-section-one-button button{
+    .media-section-one-button button,
+    .media-section-two-button button,
+    .media-section-three-button button,
+    .media-section-four-button button,
+    .media-section-five-button button,
+    .media-section-six-button button,
+    .media-section-seven-button button,
+    .media-section-eight-button button,
+    .media-section-nine-button button{
         width: 25vw;
         height: 6vh;
         text-align: center;
@@ -391,8 +400,22 @@
         width: 3.5vw;
     }
 
-}
+    #Media-section-two,
+    #Media-section-three,
+    #Media-section-four,
+    #Media-section-five,
+    #Media-section-six,
+    #Media-section-seven,
+    #Media-section-eight,
+    #Media-section-nine{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows:1fr 1fr 1fr;
+        height: 180vh;
+    
+    }
 
+}
 
 
 @media screen and (max-width: 430px) {
@@ -504,30 +527,41 @@
 
             /*This is the styling for the mobile and tablet version Eshop layout */
 
-    #Media-section-one{
-        display: grid;
-        grid-template-columns: 1fr;
-        height: 160vh;
-    }
-    .media-section-one-button button{
+    .media-section-one-button button,  
+    .media-section-two-button button,
+    .media-section-three-button button,
+    .media-section-four-button button,
+    .media-section-five-button button,
+    .media-section-six-button button,
+    .media-section-seven-button button,
+    .media-section-eight-button button,
+    .media-section-nine-button button{
         width: 20vw;
         height: 6vh;
         text-align: center;
         font-size: 0.5rem;
     }
     
-    .media-section-one-text a{
+    .media-section-one-text a,
+    .media-section-two-text a,
+    .media-section-three-text a,
+    .media-section-four-text a,
+    .media-section-five-text a,
+    .media-section-six-text a,
+    .media-section-seven-text a,
+    .media-section-eight-text a,
+    .media-section-nine-text a{
         font-size: 1rem;
     }
 
     .scales svg{
         width: 5.5vw;
     }
-    .media-section-one-left-image,.media-section-one-right-image {
+    .media-section-one-left-image,
+    .media-section-one-right-image {
         background-size: cover;
         background-position: center;
 
-    }
-                
+    }               
  
 }
