@@ -829,68 +829,195 @@ input[type="email"]:focus::placeholder{
 
 
 
-        /* This is the styling for the section six media */
+/* This is the styling for the section six media */
 
-        #Media-section-six{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows:1fr;
-            width: 100%;
-            height: 60vh;
-            margin-bottom: 2rem;
-        
-        }
-            
-        .media-section-six-left,
-        .media-section-six-middle, 
-        .media-section-six-right{
-            grid-column: span 1;
-            grid-row: span 1;
-            background-color: #fff;
-            margin: 1.5rem;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 34vh 8vh 8vh 5vh ;
-        }
-        
-        .media-section-six-left-image{
-            grid-column: span 1;
-            grid-row: span 1;
-            background-image: url('media-section-six-left.webp');
-            background-size: cover;
-            background-position:top ;
-            background-repeat: no-repeat;
-            cursor: pointer;
-        
-        }
-        
-        .media-section-six-middle-image{
-            grid-column: span 1;
-            grid-row: span 1;
-            background-image: url('media-section-six-middle.webp');
-            background-size: cover;
-            background-position:top ;
-            background-repeat: no-repeat;
-            cursor: pointer;
-        
-        }
-        
-        .media-section-six-right-image{
-            grid-column: span 1;
-            grid-row: span 1;
-            background-image: url('media-section-six-right.webp');
-            background-size: cover;
-            background-position:top ;
-            background-repeat: no-repeat;
-            cursor: pointer;
-        
-        }
-        
-        .media-section-six-button button:hover{ 
-            background-color:rgb(184, 74, 11);
-            border: 0px;
-            color: whitesmoke;
-        }
+#Media-section-six{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 2rem;
+
+}
+    
+.media-section-six-left,
+.media-section-six-middle, 
+.media-section-six-right{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: #fff;
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 34vh 8vh 8vh 5vh ;
+}
+
+.media-section-six-left-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-six-left.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-six-middle-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-six-middle.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-six-right-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-six-right.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-six-button button:hover{ 
+    background-color:rgb(184, 74, 11);
+    border: 0px;
+    color: whitesmoke;
+}
+
+/* This is the styling for the section six media */
+
+#Media-section-seven{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 2rem;
+
+}
+    
+.media-section-seven-left,
+.media-section-seven-middle, 
+.media-section-seven-right{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: #fff;
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 34vh 8vh 8vh 5vh ;
+}
+
+.media-section-seven-left-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-seven-left.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-seven-middle-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-seven-middle.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-seven-right-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-seven-right.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-seven-button button:hover{ 
+    background-color:rgb(184, 74, 11);
+    border: 0px;
+    color: whitesmoke;
+}       
+
+
+/* This is the styling for the section six media */
+
+#Media-section-eight{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 2rem;
+
+}
+    
+.media-section-eight-left,
+.media-section-eight-middle, 
+.media-section-eight-right{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: #fff;
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 34vh 8vh 8vh 5vh ;
+}
+
+.media-section-eight-left-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-eight-left.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-eight-middle-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-eight-middle.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-eight-right-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-eight-right.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-eight-button button:hover{ 
+    background-color:rgb(184, 74, 11);
+    border: 0px;
+    color: whitesmoke;
+}
 
 
 
