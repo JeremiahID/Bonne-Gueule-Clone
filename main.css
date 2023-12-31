@@ -489,7 +489,8 @@ input[type="email"]:focus::placeholder{
 .media-section-four-button,
 .media-section-five-button,
 .media-section-six-button,
-.media-section-seven-button {
+.media-section-seven-button,
+.media-section-eight-button {
     grid-column: span 1;
     grid-row: span 1;
 }
@@ -500,7 +501,8 @@ input[type="email"]:focus::placeholder{
 .media-section-four-button button,
 .media-section-five-button button,
 .media-section-six-button button,
-.media-section-seven-button button{
+.media-section-seven-button button,
+.media-section-eight-button button{
     width: 10vw;
     height: 5vh;
     margin: 0.8rem 0.2rem;
@@ -522,7 +524,8 @@ input[type="email"]:focus::placeholder{
 .media-section-four-text,
 .media-section-five-text,
 .media-section-six-text,
-.media-section-seven-text{
+.media-section-seven-text,
+.media-section-eight-text{
     grid-column: span 1;
     grid-row: span 1;
     display: flex;
@@ -537,7 +540,8 @@ input[type="email"]:focus::placeholder{
 .media-section-four-text a,
 .media-section-five-text a,
 .media-section-six-text a,
-.media-section-seven-text a{
+.media-section-seven-text a,
+.media-section-eight-text a{
     color: rgb(2, 2, 37);
     font-size: 1.5rem;
     text-decoration: none;
@@ -892,7 +896,7 @@ input[type="email"]:focus::placeholder{
     color: whitesmoke;
 }
 
-/* This is the styling for the section six media */
+/* This is the styling for the section seven media */
 
 #Media-section-seven{
     display: grid;
@@ -956,7 +960,7 @@ input[type="email"]:focus::placeholder{
 }       
 
 
-/* This is the styling for the section six media */
+/* This is the styling for the section eight media */
 
 #Media-section-eight{
     display: grid;
