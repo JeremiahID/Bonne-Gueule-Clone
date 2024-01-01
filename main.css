@@ -490,7 +490,8 @@ input[type="email"]:focus::placeholder{
 .media-section-five-button,
 .media-section-six-button,
 .media-section-seven-button,
-.media-section-eight-button {
+.media-section-eight-button,
+.media-section-nine-button{
     grid-column: span 1;
     grid-row: span 1;
 }
@@ -502,7 +503,8 @@ input[type="email"]:focus::placeholder{
 .media-section-five-button button,
 .media-section-six-button button,
 .media-section-seven-button button,
-.media-section-eight-button button{
+.media-section-eight-button button,
+.media-section-nine-button button{
     width: 10vw;
     height: 5vh;
     margin: 0.8rem 0.2rem;
@@ -525,7 +527,8 @@ input[type="email"]:focus::placeholder{
 .media-section-five-text,
 .media-section-six-text,
 .media-section-seven-text,
-.media-section-eight-text{
+.media-section-eight-text,
+.media-section-nine-text{
     grid-column: span 1;
     grid-row: span 1;
     display: flex;
@@ -541,7 +544,8 @@ input[type="email"]:focus::placeholder{
 .media-section-five-text a,
 .media-section-six-text a,
 .media-section-seven-text a,
-.media-section-eight-text a{
+.media-section-eight-text a,
+.media-section-nine-text a{
     color: rgb(2, 2, 37);
     font-size: 1.5rem;
     text-decoration: none;
@@ -1023,6 +1027,69 @@ input[type="email"]:focus::placeholder{
     color: whitesmoke;
 }
 
+
+/* This is the styling for the section nine media */
+
+#Media-section-nine{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 2rem;
+
+}
+    
+.media-section-nine-left,
+.media-section-nine-middle, 
+.media-section-nine-right{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: #fff;
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 34vh 8vh 8vh 5vh ;
+}
+
+.media-section-nine-left-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-nine-left.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-nine-middle-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-nine-middle.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-nine-right-image{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('media-section-nine-right.webp');
+    background-size: cover;
+    background-position:top ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+
+.media-section-nine-button button:hover{ 
+    background-color:rgb(184, 74, 11);
+    border: 0px;
+    color: whitesmoke;
+}
 
 
                             /*This is the styling of HOVER section for the various links */
