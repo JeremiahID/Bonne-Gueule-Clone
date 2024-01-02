@@ -505,13 +505,14 @@ input[type="email"]:focus::placeholder{
 .media-section-seven-button button,
 .media-section-eight-button button,
 .media-section-nine-button button{
-    width: 10vw;
+    width: 9vw;
     height: 5vh;
     margin: 0.8rem 0.2rem;
     background-color: transparent;
     border: 1px solid burlywood;
     color: rgb(92, 34, 7);
     font-family: calibri;
+    text-align: center;
 }
 
 .media-section-one-button button:hover{ 
