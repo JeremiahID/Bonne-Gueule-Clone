@@ -373,10 +373,9 @@
     }
 
 
-                /*This is the styling for the mobile and tablet version Mdeia layout */
+                /*This is the styling for the mobile and tablet version Media layout */
 
     .Media-section-one{
-        display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         height: 160vh;
@@ -408,7 +407,6 @@
     .Media-section-seven,
     .Media-section-eight,
     .Media-section-nine{
-        display: grid;
         grid-template-columns: 1fr ;
         grid-template-rows:1fr 1fr 1fr;
         height: 180vh;
