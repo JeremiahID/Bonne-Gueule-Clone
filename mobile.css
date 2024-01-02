@@ -375,7 +375,7 @@
 
                 /*This is the styling for the mobile and tablet version Mdeia layout */
 
-    #Media-section-one{
+    .Media-section-one{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -400,14 +400,14 @@
         width: 3.5vw;
     }
 
-    #Media-section-two,
-    #Media-section-three,
-    #Media-section-four,
-    #Media-section-five,
-    #Media-section-six,
-    #Media-section-seven,
-    #Media-section-eight,
-    #Media-section-nine{
+    .Media-section-two,
+    .Media-section-three,
+    .Media-section-four,
+    .Media-section-five,
+    .Media-section-six,
+    .Media-section-seven,
+    .Media-section-eight,
+    .Media-section-nine{
         display: grid;
         grid-template-columns: 1fr ;
         grid-template-rows:1fr 1fr 1fr;

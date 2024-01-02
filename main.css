@@ -450,7 +450,7 @@ input[type="email"]:focus::placeholder{
 
 /* This is the css styling for the various section of the Media main page */
 
-#Media-section-one{
+.Media-section-one{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:1fr;
@@ -581,7 +581,7 @@ input[type="email"]:focus::placeholder{
 }
                           /* This is the styling for the media section two*/
 
-#Media-section-two{
+.Media-section-two{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:1fr;
@@ -647,7 +647,7 @@ input[type="email"]:focus::placeholder{
 
                     /* This is the styling for the media section Three*/
 
-#Media-section-three{
+.Media-section-three{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:1fr;
@@ -711,7 +711,7 @@ input[type="email"]:focus::placeholder{
 
     /* This is the styling for the media section Four*/
 
-#Media-section-four{
+.Media-section-four{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:1fr;
@@ -775,7 +775,7 @@ input[type="email"]:focus::placeholder{
 
         /* This is the styling for the section five media */
 
-#Media-section-five{
+.Media-section-five{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:1fr;
@@ -840,7 +840,7 @@ input[type="email"]:focus::placeholder{
 
 /* This is the styling for the section six media */
 
-#Media-section-six{
+.Media-section-six{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:1fr;
@@ -903,7 +903,7 @@ input[type="email"]:focus::placeholder{
 
 /* This is the styling for the section seven media */
 
-#Media-section-seven{
+.Media-section-seven{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:1fr;
@@ -967,7 +967,7 @@ input[type="email"]:focus::placeholder{
 
 /* This is the styling for the section eight media */
 
-#Media-section-eight{
+.Media-section-eight{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:1fr;
@@ -1031,7 +1031,7 @@ input[type="email"]:focus::placeholder{
 
 /* This is the styling for the section nine media */
 
-#Media-section-nine{
+.Media-section-nine{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:1fr;
