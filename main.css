@@ -1714,9 +1714,30 @@ input[type="email"]:focus::placeholder{
 }
 
 
+    /* This is the css styling for the various section of the Eshop main page */
 
+.Agenda-section-one{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.link-text a, .reset{
+    color: rgb(27, 27, 27);
+    font-family: Lora;
+    text-decoration: none;
+    font-size: 0.9rem;
+    
+}
 
+.Agenda-section-one h1{
+    color:rgb(6, 6, 48);
+    font-family: Bodoni Moda;
+    font-size: 2.5rem;
+}
 
 
 
