@@ -484,6 +484,25 @@
         padding: 1rem;
         font-size: 0.8rem;
     }
+    .concept-section-two{
+        height: 200vh;
+    }
+    
+    .concept-section-two-wrapper{
+        height: 190vh;
+        grid-template-columns:1fr ;
+        grid-template-rows:1fr 1fr;
+    
+    }
+    
+    .section-two-content-one{
+        background-size: cover;
+    
+    }
+    
+    .section-two-content-two{
+
+    }
     
 }
 
