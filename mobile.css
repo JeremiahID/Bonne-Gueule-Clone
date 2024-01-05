@@ -1,6 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400;1,6..96,500;1,6..96,600&family=Nanum+Myeongjo:wght@400;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,500&display=swap');
 
+
+@media screen and (max-width: 1030px) {
+
+
+    .media-section-one-button button,
+    .media-section-two-button button,
+    .media-section-three-button button,
+    .media-section-four-button button,
+    .media-section-five-button button,
+    .media-section-six-button button,
+    .media-section-seven-button button,
+    .media-section-eight-button button,
+    .media-section-nine-button button{
+        width: 8vw;
+        height: 6vh;
+        text-align: center;
+    }
+
+    .media-section-one-text a,
+    .media-section-two-text a,
+    .media-section-three-text a,
+    .media-section-four-text a,
+    .media-section-five-text a,
+    .media-section-six-text a,
+    .media-section-seven-text a,
+    .media-section-eight-text a,
+    .media-section-nine-text a{
+        font-size: 1rem;
+    }
+
+    
+    .concept-sub-section-two p{
+        width: 60%;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+
+    }
+
+}
 @media screen and (max-width: 770px) {
 
     header{ 
@@ -410,14 +449,14 @@
         grid-template-columns: 1fr ;
         grid-template-rows:1fr 1fr 1fr;
         height: 180vh;
-    
+
     }
 
     .Agenda-section-one{
         height: 40vh;
         margin-left:3rem;
-        margin-right:2rem ;
-
+        margin-right:2rem;
+        
     }
 
     .Agenda-section-one h1{
