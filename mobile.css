@@ -175,8 +175,7 @@
      #mobile-search button svg{
          width: 8vw;
          height: 5vh;
-         color:black;
-        
+         color:black;   
      
      }
 
@@ -187,7 +186,6 @@
         left: 0vw;
         width: 0%;
         /* all: unset; */
-
         
      }
 
