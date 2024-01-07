@@ -1892,10 +1892,56 @@ input[type="email"]:focus::placeholder{
     grid-column: span 1;
     grid-row: span 1;
     background-color: rgba(171, 200, 211, 0.322);
+    display: flex;
+    justify-content:center;
+    align-items:center;
 }
 
+.content-two-text-container{
+    height:80vh;
+    width:40vw;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+}
 
+.content-two-text-container h1{
+    color:rgba(6, 6, 49, 0.938);
+    font-family:lora;
+    font-size:1.5rem;
+    
+}
 
+.content-two-text-container p{
+    color:rgba(6, 6, 49, 0.938);
+    font-family:lora;
+    text-align: center;
+    font-size:1rem;
+    width: 70%;
+    
+}
+
+.content-two-text-container a{
+    font-family:lora;
+    text-decoration: none;
+    padding: 1rem;
+    color:#fff;
+    text-align: center;
+    border-radius: 50px;
+    background-color:rgba(10, 32, 105, 0.932);
+    
+}
+
+.content-two-text-container a:hover{
+
+    background-color:transparent;
+    padding: 0.95rem;
+    border: 1px solid rgb(4, 22, 83);
+    font-weight: 700;
+    color:rgb(4, 22, 83);
+    
+}
 
 
 
