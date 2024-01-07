@@ -1934,7 +1934,6 @@ input[type="email"]:focus::placeholder{
 }
 
 .content-two-text-container a:hover{
-
     background-color:transparent;
     padding: 0.95rem;
     border: 1px solid rgb(4, 22, 83);
