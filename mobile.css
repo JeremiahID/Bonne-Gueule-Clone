@@ -490,12 +490,28 @@
 
     }
 
+    .concept-section-three{
+        height: 180vh;
+    
+    }
+
+    .concept-section-three-wrapper{
+        height: 170vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr
+    }
+
+    .section-three-wrapper-content-two{
+        background-size: cover;
+        background-position: center;
+    }
+
     .concept-section-eight{
         height: 80vh;
         margin: 2rem 0rem;
     }
 
-    .concept-sub-section-one img{
+    .concept-sub-section-one img,.concept-sub-section-eight-one img{
         height: 40vh;
         position: relative;
         top: 0px;
@@ -520,6 +536,7 @@
         padding: 1rem;
         font-size: 0.8rem;
     }
+    
     .concept-section-two{
         height: 200vh;
     }
