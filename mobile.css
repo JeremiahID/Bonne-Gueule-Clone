@@ -719,7 +719,7 @@
 
     }
 
-    .concept-sub-section-one img, .concept-sub-section-eight-one img{
+    .concept-sub-section-one img{
         height: 23vh;
         position: relative;
         top: 7rem;
@@ -727,9 +727,23 @@
     
     }
 
+    .concept-sub-section-eight-one img{
+        height: 23vh;
+        position: relative;
+        top: 5rem;
+        left: 20vw;
+    }
+
     .concept-sub-section-two{
         width: 100%;
         height: 50vh;
+    }
+
+    .concept-sub-section-eight-one {
+        height: 30vh;
+        width: 100%;
+
+    
     }
 
     .concept-sub-section-two p, .concept-sub-section-eight-two p {
@@ -748,13 +762,13 @@
 
 @media screen and (max-width: 375px) {
 
-    .concept-section-one{
+    .concept-section-one, .concept-section-eight{
         height: 55vh;
         margin: 1rem 0rem;
 
     }
 
-    .concept-sub-section-one img{
+    .concept-sub-section-one img, .concept-sub-section-eight-one img{
         height: 19vh;
         position: relative;
         top: 4.5rem;
@@ -773,8 +787,14 @@
         font-size: 0.5rem
 
     }
+
+    .concept-sub-section-eight-two p{
+        width: 70%;
+        padding: 0.8rem;
+        font-size: 1rem
+    }
     
-    .concept-sub-section-two a{
+    .concept-sub-section-two a, .concept-sub-section-eight-two a{
         margin: 0.5rem;
         padding: 0.3rem;
         font-size: 0.5rem;
