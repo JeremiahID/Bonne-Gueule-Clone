@@ -58,8 +58,6 @@
         cursor: pointer;
         width: 10vw;
         margin:0rem 1rem;
- 
-    
     }
 
     #hamburger svg{
@@ -536,7 +534,7 @@
         padding: 1rem;
         font-size: 0.8rem;
     }
-    
+
     .concept-section-two{
         height: 200vh;
     }
@@ -821,6 +819,5 @@
         font-size:0.8rem;
         
     }
-
 
 }
