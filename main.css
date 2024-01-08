@@ -1793,7 +1793,7 @@ input[type="email"]:focus::placeholder{
 
 
 
-    /* This is the css styling for the various section of the Agenda main page */
+    /* This is the css styling for the various section of the Concept main page */
 
 .concept-section-one{
     width: 100%;
@@ -1941,6 +1941,42 @@ input[type="email"]:focus::placeholder{
     color:rgb(4, 22, 83);
     
 }
+
+/*This is the styling for the concept section three page */
+
+.concept-section-three{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem;
+
+}
+
+
+.concept-section-three-wrapper{
+    width: 90%;
+    height: 90vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+.section-three-wrapper-content-one,.section-three-wrapper-content-two{
+    grid-column:span 1;
+    grid-row: span 1;
+   
+}
+
+.section-three-wrapper-content-two{
+    background-image: url('concept-section-four.webp');
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 
 
 
