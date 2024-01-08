@@ -1930,12 +1930,14 @@ input[type="email"]:focus::placeholder{
     text-align: center;
     border-radius: 50px;
     background-color:rgba(10, 32, 105, 0.932);
+    border: 1px solid rgba(10, 32, 105, 0.932);
     
 }
 
 .content-two-text-container a:hover{
+    transition: all 0.5s ease 0s;
     background-color:transparent;
-    padding: 0.95rem;
+    padding: 1rem;
     border: 1px solid rgb(4, 22, 83);
     font-weight: 700;
     color:rgb(4, 22, 83);
