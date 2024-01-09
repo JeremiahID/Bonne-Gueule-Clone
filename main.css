@@ -1972,6 +1972,19 @@ input[type="email"]:focus::placeholder{
    
 }
 
+.section-three-wrapper-content-one{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+:where(.section-three-wrapper-content-one) :is(h1){
+    color: #0B2739;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-family: bodoni moda;
+}
+
 .section-three-wrapper-content-two{
     background-image: url('concept-section-four.webp');
     background-position:right;
