@@ -1,5 +1,9 @@
  @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400;1,6..96,500;1,6..96,600&family=Nanum+Myeongjo:wght@400;800&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+
 
 
 *{
@@ -1981,8 +1985,8 @@ input[type="email"]:focus::placeholder{
 :where(.section-three-wrapper-content-one) :is(h1){
     color: #0B2739;
     text-transform: uppercase;
-    font-size: 1.8rem;
-    font-family: bodoni moda;
+    font-size: 2rem;
+    font-family: salsa;
 }
 
 .section-three-wrapper-content-two{
