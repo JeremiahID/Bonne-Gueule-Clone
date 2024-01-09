@@ -770,6 +770,16 @@
         height: 90vh;
 
     }
+
+    :where(.section-three-wrapper-content-one) :is(h1){
+        font-size: 1.5rem;
+
+    }
+
+    :where(.section-three-wrapper-content-one) :is(p){
+        font-size: 0.85rem;
+
+    }
     
  
 }
