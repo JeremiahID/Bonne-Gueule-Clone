@@ -2000,7 +2000,7 @@ input[type="email"]:focus::placeholder{
 
 .section-three-wrapper-content-one p a{
     color:#0B2739;
-    font-weight:bold;
+    font-weight:bold; 
 }
 
 .section-three-wrapper-content-two{
