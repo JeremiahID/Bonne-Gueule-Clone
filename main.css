@@ -2011,6 +2011,56 @@ input[type="email"]:focus::placeholder{
 }
 
 /*This is the styling for the concept section Four page */
+.concept-section-four{
+    height:90vh;
+    width:100%;
+    border: 1px solid rgb(0, 255, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.concept-section-four-wrapper{
+    height:90vh;
+    width:70%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.concept-section-four-text{
+    height:35vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.concept-section-four-video{
+    height:55vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(255, 230, 0);
+}
+
+:where(.concept-section-four-text) :is(h1){
+    color:#0B2739;
+    font-size:1.8rem;
+    font-family:salsa;
+}
+
+
+.bold-text{
+    font-weight:700;
+}
+
 
 
 
