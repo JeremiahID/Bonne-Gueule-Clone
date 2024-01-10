@@ -14,6 +14,7 @@ Hamburges.addEventListener('click' , () =>{
         concept_section_two.classList.add('hide');
         concept_section_three.classList.add('hide');
         concept_section_eight.classList.add('hide');
+        
     } else{
         LinksConcept.style.display = 'none';
         Agenda_section_one.classList.remove('hide');
