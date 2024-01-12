@@ -36,6 +36,20 @@
         font-size: 1.2rem;
 
     }
+    .concept-sub-section-one img,.concept-sub-section-eight-one img{
+        height: 40vh;
+        position: relative;
+        top: 0px;
+        left: 21vw;
+    
+    }
+
+    .concept-section-one, .concept-section-eight{
+        height: 80vh;
+        margin: 2rem 0rem;
+
+    }
+
 
 
 }

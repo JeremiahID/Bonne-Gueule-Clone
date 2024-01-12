@@ -1899,6 +1899,7 @@ input[type="email"]:focus::placeholder{
     display: flex;
     justify-content:center;
     align-items:center;
+
 }
 
 .content-two-text-container{
