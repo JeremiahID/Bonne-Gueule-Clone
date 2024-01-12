@@ -513,7 +513,7 @@
         height: 40vh;
         position: relative;
         top: 0px;
-        left: 20vw;
+        left: 21vw;
     
     }
 
@@ -555,6 +555,16 @@
         width:80%;
 
     }
+
+  
+    :where(.concept-section-four-text) :is(h1){
+
+        font-size:2rem;
+
+    }
+    
+    
+
 
     
     

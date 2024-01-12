@@ -2047,6 +2047,11 @@ input[type="email"]:focus::placeholder{
     align-items: center;
 }
 
+:where(.concept-section-four-video) :is(video){
+    height:60vh;
+    width:100%;
+}
+
 :where(.concept-section-four-text) :is(h1){
     color:#0B2739;
     font-size:2.5rem;
