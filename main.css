@@ -1113,7 +1113,6 @@ input[type="email"]:focus::placeholder{
     background-color:rgb(247, 185, 105);
 }
 
-
 #media ul{
     width: 100%;
     height: 5vh;
@@ -1122,7 +1121,6 @@ input[type="email"]:focus::placeholder{
     align-items: center;
 
 }
-
 
 #media ul li a{
     color: whitesmoke;
