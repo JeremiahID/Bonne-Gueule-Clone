@@ -1715,7 +1715,7 @@ input[type="email"]:focus::placeholder{
     /* This is the css styling for the various section of the Agenda main page */
 
 .Agenda-section-one{
-    width: 88%;
+    width: 90%;
     height: 50vh;
     display: flex;
     margin-left:5rem;
