@@ -2140,7 +2140,6 @@ input[type="email"]:focus::placeholder{
 
 
 
-
                                 /* This is  the styling for the Svg's on click */
 
 /* This is  the styling for the Search on click */
@@ -2199,6 +2198,7 @@ input[type="email"]:focus::placeholder{
 }
 
 /* This is  the styling for the Contact-Login on click */
+
 #loginSection{
     display:none;
     height:100vh;
