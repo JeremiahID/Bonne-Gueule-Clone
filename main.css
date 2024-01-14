@@ -2135,7 +2135,30 @@ input[type="email"]:focus::placeholder{
     background-color:white;
 }
 
+        /*This is the styling for the SHOP pages */
 
+.shop-links{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.shop-links a{
+    color: #0B2739;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: roboto;
+    
+}
+
+.shop-links a:hover{
+    color: #0b2739d8;
+   border-top: 2px solid #0B2739;
+   border-bottom: 2px solid #0B2739;
+
+}
 
 
 
@@ -2430,7 +2453,16 @@ input[type="email"]:focus::placeholder{
     z-index: -1;
  
 } */
-
+/* 
+#permalink_section {
+    width: 960px;
+    overflow-x: scroll;
+  }
+  
+  #permalink_section a {
+    white-space: nowrap;
+  }
+   */
 
 
 
