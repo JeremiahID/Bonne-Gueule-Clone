@@ -876,10 +876,10 @@
     }
 
     .shop-sub-section-one img{
-        height: 20vh;
+        height: 20.5vh;
         position: relative;
-        top: 4.5rem;
-        left: 19vw;
+        top: 4rem;
+        left: 20vw;
     }
 
     .concept-sub-section-two{
@@ -890,12 +890,12 @@
     .concept-sub-section-two p{
         width: 70%;
         padding: 0.8rem;
-        font-size: 0.5rem
+        font-size: 0.9rem
 
     }
 
     .shop-sub-section-two p{
-        width: 90%;
+        width: 80%;
         padding: 0.8rem;
         font-size: 0.8rem
 
