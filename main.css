@@ -2160,6 +2160,53 @@ input[type="email"]:focus::placeholder{
 
 }
 
+.shop-section-one{
+    width: 100%;
+    height: 120vh;
+    margin: 5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+
+}
+
+.shop-sub-section-one {
+    height: 30vh;
+    width: 100%;
+
+}
+
+.shop-sub-section-one img{
+    height: 65vh;
+    position: relative;
+    top: 0px;
+    left: 20vw;
+
+}
+
+
+.shop-sub-section-two{
+    width: 100%;
+    height: 90vh;
+    background-color: #0B2739;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.shop-sub-section-two p{
+    text-align:center;
+    width: 40%;
+    color: rgba(255, 255, 255, 0.664);
+    padding: 1.5rem;
+    font-family: salsa;
+    font-size: 1.05rem;
+    word-spacing: 0.2;
+}
+
 
 
 
