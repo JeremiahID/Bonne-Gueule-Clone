@@ -2208,7 +2208,9 @@ input[type="email"]:focus::placeholder{
 
 /*this is a styling for the shop section two*/
 
-.shop-section-two, .shop-section-three{
+.shop-section-two, 
+.shop-section-three,
+.shop-section-four{
     width: 100%;
     height: 90vh;
     display: flex;
@@ -2217,7 +2219,9 @@ input[type="email"]:focus::placeholder{
     margin: 3rem 0rem;
 }
 
-.shop-section-two-wrapper, .shop-section-three-wrapper{
+.shop-section-two-wrapper, 
+.shop-section-three-wrapper,
+.shop-section-four-wrapper{
     width: 80%;
     height: 90vh;
     display: grid;
@@ -2260,6 +2264,23 @@ input[type="email"]:focus::placeholder{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.section-four-image-left{
+    background-image: url('shop-section-five-left.webp');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.section-four-image-right{
+    background-image: url('shop-section-five-right.webp');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
 
 
 
