@@ -611,14 +611,14 @@
         font-size: 1rem;
     }
 
-    .shop-section-two, .shop-section-three{
+    .shop-section-two, .shop-section-three, .shop-section-four{
         width: 100%;
         height: 190vh;
         margin: 2rem 0rem;
         
     }
 
-    .shop-section-two-wrapper, .shop-section-three-wrapper{
+    .shop-section-two-wrapper, .shop-section-three-wrapper, .shop-section-four-wrapper{
         width: 80%;
         height: 180vh;
         grid-template-columns: 1fr ;
@@ -627,17 +627,27 @@
 
     }
 
-    .shop-section-one-main{
+    .section-two-image-left,
+    .section-three-image-left,
+    .section-four-image-left,
+    .section-two-image-right,
+    .section-three-image-right,
+    .section-four-image-right{
+        background-size: cover;
+    }
+
+    .shop-section-one-main, .shop-section-five{
         width: 100%;
         height: 50vh;
 
     }
 
-    .shop-section-one-main-wrapper{
+    .shop-section-one-main-wrapper, .shop-section-five-wrapper{
         height: 50vh;
         width: 100%;
-        background-size: contain;
+        background-size: cover;
         margin: 0rem 1rem;
+        
     }
 
 
@@ -884,6 +894,12 @@
         font-size: 0.5rem;
         margin: 0.5rem;
       }
+
+      .shop-section-one-main-wrapper, .shop-section-five-wrapper{
+    
+        background-size: contain;
+        
+    }
     
  
 }
