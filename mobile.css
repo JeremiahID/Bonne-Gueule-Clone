@@ -614,16 +614,20 @@
     .shop-section-two{
         width: 100%;
         height: 190vh;
+        margin: 2rem 0rem;
         
     }
 
     .shop-section-two-wrapper{
-        width: 100%;
+        width: 80%;
         height: 180vh;
         grid-template-columns: 1fr ;
         grid-template-rows: 1fr 1fr;
+        row-gap: 1rem;
 
     }
+
+
 
     
     
