@@ -627,6 +627,19 @@
 
     }
 
+    .shop-section-one-main{
+        width: 100%;
+        height: 50vh;
+
+    }
+
+    .shop-section-one-main-wrapper{
+        height: 50vh;
+        width: 100%;
+        background-size: contain;
+        margin: 0rem 1rem;
+    }
+
 
     
 }

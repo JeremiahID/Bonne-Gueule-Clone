@@ -2206,7 +2206,25 @@ input[type="email"]:focus::placeholder{
     word-spacing: 0.2;
 }
 
-/*this is a styling for the shop section two*/
+/*this is a styling for the shop section one, two, three, four*/
+
+.shop-section-one-main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-section-one-main-wrapper{
+    width: 69%;
+    height: 90vh;
+    background-image:url('shop-section-two.webp');
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 
 .shop-section-two, 
 .shop-section-three,
