@@ -2208,7 +2208,7 @@ input[type="email"]:focus::placeholder{
 
 /*this is a styling for the shop section two*/
 
-.shop-section-two{
+.shop-section-two, .shop-section-three{
     width: 100%;
     height: 90vh;
     display: flex;
@@ -2217,7 +2217,7 @@ input[type="email"]:focus::placeholder{
     margin: 3rem 0rem;
 }
 
-.shop-section-two-wrapper{
+.shop-section-two-wrapper, .shop-section-three-wrapper{
     width: 80%;
     height: 90vh;
     display: grid;
@@ -2230,7 +2230,7 @@ input[type="email"]:focus::placeholder{
     grid-row: span 1;
 }
 
-.image-left{
+.section-two-image-left{
     background-image: url('shop-section-three-left.webp');
     background-position: center;
     background-size: contain;
@@ -2239,13 +2239,27 @@ input[type="email"]:focus::placeholder{
 
 }
 
-.image-right{
+.section-two-image-right{
     background-image: url('shop-section-three-right.webp');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
+.section-three-image-left{
+    background-image: url('shop-section-four-left.webp');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.section-three-image-right{
+    background-image: url('shop-section-four-right.webp');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 
 
