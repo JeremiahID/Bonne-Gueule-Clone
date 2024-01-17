@@ -1,3 +1,4 @@
+// Shop HAMBURGER MENU RESPONSIVENESS
 const ham_burgs = document.querySelector('#hamburger');
 const Agenda_section_one = document.querySelector('.Agenda-section-one');
 const shop_section_one_main= document.querySelector('.shop-section-one-main');
