@@ -7,7 +7,7 @@ const shop_section_two = document.querySelector('.shop-section-two');
 const shop_section_three = document.querySelector('.shop-section-three');
 const shop_section_four = document.querySelector('.shop-section-four');
 const shop_section_five = document.querySelector('.shop-section-five');
-const Section_three = document.querySelector('.sectionThree');
+const Section_four = document.querySelector('.sectionFour');
 const shop_links = document.querySelector('#anchor')
 
 
@@ -21,7 +21,7 @@ ham_burgs.addEventListener('click' , ()=>{
         shop_section_three.classList.add('hide');
         shop_section_four.classList.add('hide');
         shop_section_five.classList.add('hide');
-        Section_three.classList.add('hide')
+        Section_four.classList.add('hide')
 
     }else{
         shop_links.style.display = "none";
@@ -32,7 +32,7 @@ ham_burgs.addEventListener('click' , ()=>{
         shop_section_three.classList.remove('hide');
         shop_section_four.classList.remove('hide');
         shop_section_five.classList.remove('hide');
-        Section_three.classList.remove('hide')
+        Section_four.classList.remove('hide')
 
     }
 })
