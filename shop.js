@@ -7,8 +7,31 @@ const shop_section_three = document.querySelector('.shop-section-three');
 const shop_section_four = document.querySelector('.shop-section-four');
 const shop_section_five = document.querySelector('.shop-section-five');
 const Section_three = document.querySelector('.sectionThree');
+const shop_links = document.querySelector('#anchor')
 
 
 ham_burgs.addEventListener('click' , ()=>{
+    if(shop_links.style.display === "none"){
+        shop_links.style.display = "block";
+        Agenda_section_one.classList.add('hide');
+        shop_section_one_main.classList.add('hide');
+        shop_section_one.classList.add('hide');
+        shop_section_two.classList.add('hide');
+        shop_section_three.classList.add('hide');
+        shop_section_four.classList.add('hide');
+        shop_section_five.classList.add('hide');
+        Section_three.classList.add('hide')
 
+    }else{
+        shop_links.style.display = "none";
+        Agenda_section_one.classList.remove('hide');
+        shop_section_one_main.classList.remove('hide');
+        shop_section_one.classList.remove('hide');
+        shop_section_two.classList.remove('hide');
+        shop_section_three.classList.remove('hide');
+        shop_section_four.classList.remove('hide');
+        shop_section_five.classList.remove('hide');
+        Section_three.classList.remove('hide')
+
+    }
 })
