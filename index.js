@@ -1,3 +1,4 @@
+// Mouse Over RESPONSIVENESS
 const Media = document.querySelector('#media');
 const LinkMedia = document.querySelector('#linkMedia');
 const SectionOne = document.querySelector('.sectionOne');
