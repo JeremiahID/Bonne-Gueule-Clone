@@ -1,3 +1,4 @@
+// Concept HAMBURGER MENU RESPONSIVENESS
 const Hamburges = document.querySelector('#hamburger');
 const concept_section_one =  document.querySelector('.concept-section-one');
 const concept_section_two = document.querySelector('.concept-section-two');
