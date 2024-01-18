@@ -231,15 +231,9 @@
      }
 
      .sectionOne{
-        height: 200vh;
-        grid-template-columns: 1fr ;
-        grid-template-rows: 1fr 1fr;
-        gap: 1rem;
+        height: 100vh;
      }
 
-     .spaceOne, .spaceTwo{
-       margin: 2rem;
-     }
 
      .sectionTwo{
         width: 91%;
