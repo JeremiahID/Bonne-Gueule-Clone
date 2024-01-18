@@ -10,7 +10,6 @@ const shop_section_five = document.querySelector('.shop-section-five');
 const Section_four = document.querySelector('.sectionFour');
 const shop_links = document.querySelector('#anchor')
 
-
 ham_burgs.addEventListener('click' , ()=>{
     if(shop_links.style.display === "none"){
         shop_links.style.display = "block";
