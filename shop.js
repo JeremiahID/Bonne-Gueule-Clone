@@ -33,6 +33,5 @@ ham_burgs.addEventListener('click' , ()=>{
         shop_section_four.classList.remove('hide');
         shop_section_five.classList.remove('hide');
         Section_four.classList.remove('hide')
-
     }
 })
