@@ -106,17 +106,19 @@ svg {
     height: 100vh;
     background-color: #fff;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
     grid-template-rows: 1fr;
-    gap: 3rem;
 }
 
 .sectionOne a{
     grid-column: span 1;
     grid-row: span 1;
-    margin-top: 1rem;
-    
-      
+    margin: 2rem;
+    background-image: url("lookbook-sec-seven.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top ;
+       
 }
 
 .sectionOne a:hover{
@@ -124,29 +126,7 @@ svg {
     transition: all 0.5s ease-in-out 0s;
 }
 
-.spaceOne{
-    margin-left: 4rem;
-    margin-bottom: 1rem;
-}
 
-.spaceTwo{
-    margin-right: 4rem;
-    margin-bottom: 1rem;
-}
-
-.contentOne{
-    background-image: url("E-SHOP.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.contentTwo{
-    background-image: url("MEDIA.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 /*This is the styling of Second section */
 
