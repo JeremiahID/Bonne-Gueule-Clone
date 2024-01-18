@@ -1,3 +1,4 @@
+// Agenda HAMBURGER MENU RESPONSIVENESS
 const Hamburgs = document.querySelector('#hamburger');
 const Agenda_section_one =  document.querySelector('.Agenda-section-one');
 const Agenda_section_two = document.querySelector('.Agenda-section-two');
