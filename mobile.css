@@ -673,19 +673,13 @@
         background-image: url("lookbook-sec-nine.webp");    
     }
 
-    .sectionTwo{
-        width:90%;
-        border:  1px solid black;
+
+
+     .container{
+        margin: 1rem;
 
     }
 
-    .sectionOneContent{
-        height: 95vh;
-    }
-
-    .sectionTwoContent{
-        height: 75vh;
-    }
 
     .sectionTwoContent h1{
         padding-top: 2rem;
