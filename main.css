@@ -154,22 +154,20 @@ svg {
 .sectionOneContent{
     grid-column: span 1;
     grid-row: span 1;
-    /* background-image: url("boutiques.jpg");
+    background-image: url("boutiques.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover ; */
-    border: 1px solid red;
-
+    background-size:cover ;
 
 }
 
-/*
 .sectionTwoContent{
-    height: 89.9vh;
-    width: 45%;
+    grid-column: span 1;
+    grid-row: span 1;
     background-color: rgba(128, 128, 128, 0.267);
     border-left: 1px solid white;
 }
+
 
 .sectionTwoContent h1{
     color: rgb(12, 12, 66);
@@ -215,7 +213,7 @@ button:hover{
     background-color: rgb(1, 21, 34);
     transition: all 0.5s ease 0s;
     cursor: pointer;
-} */
+}
 
 
 
