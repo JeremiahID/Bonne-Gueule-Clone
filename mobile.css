@@ -341,7 +341,7 @@
 
     }
 
-    .sectionFour .container{
+    .sectionFour .SecFourContainer{
         width: 100%;
         height: 180vh;
         flex-direction: column;
@@ -681,7 +681,8 @@
     }
 
     .sectionTwo{
-        width:80%;
+        width:90%;
+        border:  1px solid black;
 
     }
 
